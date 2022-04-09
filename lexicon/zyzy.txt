@@ -1,0 +1,1539 @@
+﻿This is the introductory lecture which gives the key concepts of the course and some of the course objectives such as the efficient lifecycle management and understanding of the lifecycle.
+So what is an enterprise?
+What is software system?
+And what is the software application?
+These are the central concepts of the course.
+As for the enterprise we will get more formal definition later.
+For now we will just say that an enterprise is a large scale versatile diverse structure, business structure which is focused on the production of different products: not necessary software, or just oil, or gas, or something else.
+And which has a centralized management so in terms of a revenue, profits, human resources and things like that.
+This has a centralized management.
+As for a software system this is something more than merely a program.
+This is actually a set of programs which also has a centralized management similarly to the corporation, to the enterprise.
+An enterprise being something diverse however is also a distributed environment.
+It is usually so.
+This is not just one office or just one company.
+It's a number of companies or a number of subsidiaries which actually have a centralized management has one headquarter which manages their business or a number of businesses.
+Ok. 
+Let’s overview the challenges of the-state-of-the-art software development and let’s see how these challenges can be managed by an adequate lifecycle.
+There is a number of challenges or problems in current software development.
+This is very competitive area.
+We have a number of competitors who strive to put their software products to markets.
+And actually there is quite a number of competing products on the markets.
+So it’s really hard to get with something absolutely new or innovative.
+However technologies are rapidly changing.
+And we have to focus on that to restyle our development may be to hire new professionals in the state-of-the-art technologies and follow this terrific market pace.
+So that’s another problem.
+The problem of the enterprise software is complexity.
+A number of models, a number of programs or software applications, software systems which comprise a number of applications running concurrently.
+That’s also a niche to get this programs together and the software application work together.
+And not just work together but generate profits and serve for the enterprise business.
+So all these things complexity and a competition, new technologies, new merging technologies, a rapid technological pace taking together make a software development very complex and very challenging.
+That is why understanding the lifecycle is really essential for its effective and efficient management.
+In this slide you can see a project triangle which includes time, money and functions, functionality to be developed.
+This triangle has gotten two distinct areas.
+The dark grey area, the inside area which is a comfortable development area we can manage basically everything, even just basically everything, within that inner triangle.
+The outer one, which is light grey one, is not that easily manageable and adjustable.
+But when we come out of that light triangle, when we get to the white area, outside, things or the parameters (money, time and functions) become really manageable.
+So to learn how to manage these on time to be on budget and to equate the deliverables required we have to analyze the entire software development lifecycle.
+The next graph gives you’re an idea of another set of constraints which follow the software development or which get software development.
+The inputs to the rectangle, which is named development, are named or are dependent on size, complexity, different restrictions, technological and business requirements, base restrictions, people or human factors and the environment depending on whether you are developing for Windows or iOS for example from Apple.
+This makes impose significant changes on the development process.
+As for the deliverables (the arrows that are coming out from the rectangle), these are the same things as we have seen on the project triangle which are labor, cost and time.
+So you see the software development process on lifecycle in particular has got many dependences both as inputs and outputs.
+And to manage them effectively is a significant challenge.
+This graphic illustrates the lifecycle of the software development.
+Of course this is an informal illustration.
+This is a general overview of what’s happening during the lifecycle.
+So the first thing is the decrease in terms of money because we’re investing money, we’re building the software.
+So the idea is: during the software development we just invest money, we get no profits because the sales haven’t yet begun.
+The next stage is getting to market, getting the product to market for its sales which actually bring this money fortunately.
+In case when we are fortunate enough we can get out of this gap, this investment gap and return the money, the funds we have invested into the software production.
+Then we get the maturity or the rise actually when we reach the maturity stage which is a kind of a flat part of the graph.
+And then we have the decline when due to the competition and complexity are just mentioned.
+It’s really hard to reproduce the product that way that it can compete on the market.
+So that is why we get the decline under the retirement.
+So the lifecycle is over, the lifecycle actually starts from the very initial concept or idea of how the product will look like and which customer needs it will satisfy.
+And it ends up with the decline and retirement.
+Summarizing the introduction we have just done let’s see what conclusions, which early conclusions can be drawn at this point of time.
+First of all software development is very complex.
+And it is especially complex in case of enterprise scale systems, large scale systems with many models, with many different applications running concurrently with a number of business goals to be satisfied with thousands or dozens of thousands of concurrent users.
+Also the software development faces significant risks due to complexity, due to the technological changes, due to the number of competing producers, software producers, and also competing teams, and interacting teams in terms of software production.
+So this is very complex with scene how the software development lifecycle happens.
+It starts with initial idea and investment.
+And then they have to launch the product to market to get the profits, to get the product become mature.
+And then we have the decline and retirement.
+So basically we have to understand the lifecycle in more detail to manage it successfully.
+Coming back to references which will assist you and guide you through the course management and learning process we have some references attached.
+So the first one is the famous book from Ian Sommerville on software engineering currently available at “amazon.com” and elsewhere.
+This is a famous book on concurrent complexity.
+And lifecycle management can also be traced from the book.
+The other one, the other approach of… or view point, or stand point for the software engineering is from Steven Schach.
+That’s the book number two.
+The book number three is by Steve McConnel.
+It’s also very influential and widely sited and used by Microsoft.
+This is called “Code Complete”.
+And this is from Microsoft Press.
+And last one but not the least is my book which is appearing, so which is available almost currently from Springer, which is called “Crisis Management for Software Development and Knowledge Transfer”.
+The first section of the book, the first two chapters actually deal with the software development models and methodologies.
+And I’ll go through the exact pages you‘ll need to add to your knowledge on the course.
+Thanks.
+Please think them over on your own and try to figure out the answers.
+Of course this may be not the single best answers or ultimately true, or ultimately correct answers.
+But anyway it makes sense to reflect and think on the possible answers for the following questions.
+What is an enterprise in terms of diversity, in terms of complexity, in terms of management?
+Should software components or different software applications running concurrently and managing lifecycles of an enterprise, of the business lifecycle of the enterprise, should they be isolated, used separately or integrated working together?
+Which stages of SD(L) — the software development lifecycle — in terms of market progress can be identified?
+Can you identify?
+It listed formally in terms of idea, development, retirement and things like that.
+What are typical sales and profit dynamics of a software system?
+Think about the graph we have just seen.
+What is the correlation between business growth rate and market the share?
+Thanks.
+In this lecture we are going to give some more details of what software development is in terms of different kinds of software development like project based development, or product based development and different kinds of software development sides.
+What is a customer?
+What is a developer?
+And which roles are there in each of these sides.
+So coming back to software product development types or kinds, the first thing is a private development.
+Basically, this is for non-commercial use.
+Why do we need this classification of the development types?
+This is probably necessary for better understanding the lifecycles, because there is somewhat different for the product or for the project, we’ll see it in the next lectures.
+So, the first type is for non-commercial use.
+The second one is the so called product development when we basically have no customer already but we have an idea and we have some requirements preliminary stated but no initial investments and initial investment is required.
+And there is certain understanding by the marketing department or whoever else that the products or at least its initial concept or idea would be usable, would be somehow applicable to the market and the risk of a certain market demand for that.
+So this is the product development.
+And the third thing is a project development.
+In this case, we understand there is a certain need in the project, in the products.
+And there is certain purpose because we have a customer with certain interests, and functions to be implementable in certain intentions.
+So in this case we have a budget for that — for the project, for the software products — we have a time frame, a time line, and deliverables to be done, and the functions — the actual product functions — to be delivered.
+Well, in reality, we often have a mixed kind of development.
+And this "mixed" means a mixing between the product and project development — this two things.
+So, these are the basic types of software product development, depending on this, the lifecycle, is somewhat deferent.
+Lets discuss what enterprise is in a little bit more detailed way.
+An enterprise is a large-scaled company.
+But what is the basic difference between the enterprise or the main differences between the enterprise and a local company?
+First of all it is size or scale.
+Normally large-scale enterprise would be something about 100,000 employees.
+Something about 10,000 employees is a medium-scale enterprise.
+And something about 1,000 employees would probably be a small-scale enterprise.
+But is it not the only difference.
+The other difference, the other big difference is that an enterprise is something distributed.
+So it is normally a number of companies often doing different kinds of business located in different cities or even in different continents.
+But they have of course the headquarters, the management which is centralized and which actually guides their businesses and business activities.
+And of course since they have the centralized management, the overall business objectives and business plans are generated there.
+So the differences are first of all large scale, the geographically distributed character and the ownership which is centralized and the management which is also centralized.
+Ok.
+What is software as a product?
+Software as a product has got certain distinct features or characteristics.
+Let’s summarize them.
+First of all any software product has got a commercial value.
+So it can be set to the market, launched on the market to meet certain demand.
+So there should be certain demand in the market and the end users should potentially need this product to satisfy their business requirements to become more competitive on the market and things like that to efficiently manage their business. As for the different forms, software as a product can be either a material object, we can view it as the DVD or CD, or an intangible, a non-material object such as a website with certain kinds of links, or downloadable files and things like that.
+And it can also be offered as a service, software as a service, as a state-of-the-art concept.
+So the user in this case usually rents it rather than buys it.
+So the user pays for a certain service offered on a certain basis, for a certain period of time, like year per year basis, and things like that.
+How can software product can be classified?
+We can classify it by purpose, like, we can identify system level software such as operating systems, we can identify office products and we can identify some other products, some other kinds of products.
+We can classify them — the software products — by scale.
+How big is this product, is it intended for an enterprise with many concurrent users with different subsiduries with data running
+in both directions between the offices, between the subsiduries of the consolidating data and things like that.
+And we can identify some smaller-scale software products intended for personal use or small business use for example.
+The third way of classification is how open is this software?
+Is it an open source solution or is it a kind of a proprietary solution?
+Is it delivered as an API, the open interface or apply programming interface kind of library which can be easily downloaded and used?
+Or is it locked, does it require a special purpose license and things like that.
+So these are the ways to classify software products to understand their intention, and their lifecycle better.
+Concerning the software applications we have to identify their scale to understand what is the typical size of an enterprise scale software.
+How big is that?
+The software development methodologies and the software engineering has identified certain metrics for measuring the scale of the software products, and the basic metric of course is lines of code, number of lines of code(LOC).
+We normally call it count lines of code or CLOC.
+So how many CLOCs, how many thousands of lines of code is that piece of software long?
+That is the question.
+The other metric is a man years or person years.
+So how many person-years does it take to develop certain piece of software?
+In terms of enterprise scale, a usual number of person years is around one hundred.
+However, the software pieces are existing, the software products are existing, which are even bigger or a way smaller.
+Small software in terms of enterprise application is something below 10 person-years.
+Well, of course this classification is rather approximate and these are just some figures to navigate you on the size on the software applications.
+Of course we are speaking about the software systems, to these are not trivial programs, but rather, these are a number of sets or families of programs running concurrently and working together and recome a control.
+So in terms of an enterprise scale application, again, a typical size in terms of labor would be one hundred person years and a huge application could even exceed one thousand person years.
+Concerning software development and its lifecycle, we already mention that this is a complex process and it requires a number of sides.
+Each of the sides or parties, has got their own interests and preferences.
+We can identify at least two sides with clearly different goals, ideas of how the product will look like, or can look like, or should look like, and different preferences.
+So these are the two sides of clients and developers.
+As for the clients and developers we also have the management in each case which is controlling the processes, the managing the processes of software development, managing the time budget and deliverables in terms of functions.
+We would probably not dive deeper for the client side discussion, we would rather focus on the developer side.
+So as you can see in the slide, we have around 15 different roles for the developer side only.
+And these are just the main roles, these are not, this is not the entire set of roles for the developer side.
+Of course we have a project manager, we have a product manager, we often have a program manager as a dedicated role, we have a number of designers, we have a chief architect, who is responsible for the entire framework of the margells or applications, large scale applications, running together, running concurrently, exchanging information, getting data to each other, consolidating this data to get the reports.
+We also have some smaller scale designers, who are responsible for each subsystem or each application.
+We also have a number of testers, we have a test manager kind of a chief, testing authority, who is to ensure that the software product has a good quality and behaves as required.
+We also have a number of smaller scale testers, who are designing and developing individual tests for the software models, bigger applications and eventually the product itself.
+Again to prove that it’s correct in terms of requirements and that… it… as comprising the quality, it is meaning the quality attributes such as scale ability, availability, and maintainability and things like that, performance, of course, sometimes security and so on.
+We also have a number of experts in these certain quality areas, and these are called quality managers and software required ensurance team.
+Within this team, it probably makes sense to identify a special person, a dedicated role of usability manager, this is the person who certifies the software products usable and it is easy and friendly to use.
+We also have developers, that are the people who actually write the code and who also are initial testers of their own code.
+Moreover, we have a number of people who are doing the technical documentation, or technical writers, they are producing user manuals, administrator manuals, database administrator manuals, network administrator manuals, security manuals, and many other documents which help us to maintain the product, to support the product, after it has been transferred to the user within the lifecycle.
+So we have an overview of what is happening in the projects and we have a very basic overview of what happens in the lifecycle.
+What conclusions, what early conclusions can we draw at this point?
+First of all, we have a number of different criteria or priorities of basically optimizing the lifecycle and the lifecycle management while developing a software product.
+We have such constrains as time, budget and functionality.
+And these are often our main preferences.
+We have smaller preferences such as quality attributes.
+These are performance, availabilities, security, usability, maintainability, portability and things like that.
+However each time the project, a software project is a unique thing, and we have to reprioritize this criteria for each software product, and for each software project.
+That is why the idea is to better understand the lifecycle of the software development in order to predict and better manage the lifecycle development processes.
+OK.
+So we have three questions here.
+What is an enterprise in terms of scale and scope and size, and business goals?
+Are the enterprise subsidiaries, the individual companies within an enterprise focused on same or different business goals?
+Which roles can you identify at the client’s side (we had a very short list of those), and at the developer side (we had a rather long list).
+Thanks.
+In this lecture we’re going to identify what is a software system, what is software engineering discipline, and how specifically it is used to manage software system’s development, and what is a lifecycle: what are its distinct features and how do the software systems behave or how they are developed through this lifecycle.
+So the software system as a opposed to a program as something more complex and something bigger in size, which actually embraces several programs operating concurrently under a common control or maintenance.
+A software application is an applied software system.
+So this is a software system which is used to satisfy specific business needs or business requirements such as human resource management, financial management, document management and things like that.
+As for software engineering we have a number of definitions in the books of Ian Sommerville and Stephen Schach, which are recommended in the references.
+And we also have an interesting and rather short definition by the Russian software engineering patriarch Lipaev, which is in the slide.
+What should be emphasized in terms of software engineering definition?
+It is that it needs methods, tools and practices in order to build large-scale and complex systems, which are reproducible, which have good or adequate quality level, and which are possibly using databases.
+As for the software development lifecycle we have a more specific definition by Getsi.
+And we also have a definition from Steve McConnell.
+Again his book is within the references.
+I think, I’ll read this from the slide to emphasize some words and to make it precise.
+“Any software development effort goes through a "lifecycle", which consists of all the activities between the time that version 1.0 of a system begins a file as a gleam of someone’s eye and the time that version 6.74b finally takes its last breath on the last customer’s machine.”
+So the idea is that the software lifecycle starts from the original concept or idea, which can be rather vague, which can be rather far from the actual implementation, but it is not ending with the implementation and transfering of the product to user, but rather it ends up with the retirement of the very last instance, on the very last customer’s machine, as Steve McConnell says.
+Let’s specify what the software development lifecycle means in more detailed way.
+First of all a software development lifecycle is a number of different stages with clear entry and exit criteria.
+So the idea is that we can identify which documents or which artifacts should be produced at each and every stage, such as, for example, maintenance, testing, high-level design or whatever else conceptual modeling of the software system to be developed.
+And then after these deliverables are produced, such as certain code is written, or code is tested and test artifacts, such as test cases, are produced, we can move on to the next stage.
+Like, for example, we can move on from developing individual models, individual parts of the software product to its integration.
+So, theoretically, each of these entry and exit criteria, entry and exit points for each lifecycle stage is clear and their sequence is well enough defined.
+However, in practice, certain projects could be more complex and challenging.
+Coming back to software development, I think it makes sense to emphasize that the software development is a multi-criteria optimization. So there are a number of different criteria, which correspond to this entry and exit criteria of the lifecycle, which help us to identify that the product is built in a correct way, and the product satisfies certain quality level, and the project runs within the budget specified, within the time frames specified, and we are getting the right deliverables of good quality.
+So what are the criteria of this optimization?
+What are the basic factors, which should be taken into account?
+First of all these are the project triangle sides — time, cost, and functions.
+However, there are a number of other quality attributes, such as performance, availability, maintainability, usability, security and things like that, which sometimes depending on project size and scope, should be taken into account.
+So, depending on these priority of the factors identified, each project is unique and following these criteria in the right way, result and predictive and cost effective and efficient lifecycle management
+Ok, let’s conclude this lecture by saying that we have identified what is the software development lifecycle and outlined the stages of the software development lifecycle starting from something like a conceptual analysis, filling the blanks for the exact stages later, design implementation, maintenance, and retirement.
+And we also said that a dedicated discipline named software engineering emerged to support software development and its lifecycle.
+Every software system development is actually following this lifecycle in a number of steps and it is a multi-criteria optimization.
+It uses number of factors, which guides, which guide the development process.
+These factors are basically the project triangle factors, which are time, cost and functions, deliverables, functionality of the resulting product.
+However, a number of quality attributes, such as maintainability, security, usability, portability, performance, availability and others, should sometimes be taken into account.
+So each project is unique.
+And that is why we should systematically approach the lifecycle to efficiently manage it.
+Before we conclude, let’s analyze certain aspects of software development and managing lifecycle.
+Let’s think about why should we need to learn lifecycle management.
+And the answers are basically in the slide.
+They are to organize and manage better, of course, organize and manage software development in general.
+If we understand a lifecycle, we understand which activities are performed by different roles within the lifecycle.
+What are the testers doing and why are they testing that long?
+And the software quality is not really improving that much. For example, how much time
+will they need for ensuring the top-level quality or the desired or required quality of the product?
+How much time do we need to document the product?
+And do we need an extra time at all?
+Maybe the product is good by itself and it self-documented.
+Probably not.
+Right?
+The other thing is to analyze the current software development process.
+What are the possible gaps?
+What are the possible bottlenecks?
+Where are we wasting time and money?
+What are people doing?
+And why are testers so large in number?
+Maybe we can do with a smaller number of testers.
+Consequently we can better plan software development and improve the software process.
+So to understand and to improve, we need to understand the sequence of the stages of the software development lifecycle.
+And are just accordingly.
+And this is especially vital for the large scale projects, for the enterprise projects.
+So for enterprise software system development we need to deeply understand and master the entire lifecycle process.
+Lifecycle stages, their entry and exit criteria should be understood in the best possible way.
+What is software system?
+Is it merely a program or something more complex?
+What is software engineering and why do we need it?
+How does it help in managing software lifecycle?
+What is software lifecycle?
+And why do we need to learn it?
+What are the features of the lifecycle?
+What is… why is software lifecycle multiple criteria optimization?
+What is optimized? What are the parameters or the criteria for this optimization?
+What factors does the software lifecycle depend on?
+Is it just a project triangle or something else?
+Thanks.
+In this lecture we’ll summarize the lifecycle stages and become more specific what is lifecycle of a product, software products and a software project.
+And we’ll have a different view points on the lifecycle.
+We’ll discuss the economics of the lifecycle stages in the input, the input of each stage or influence of each stage into economics, its contribution to the economics.
+And we circled Boston matrix, which is another view what is happening with the products during the lifecycle.
+If you remember the diagram where we had first invested and then we were getting the return on investment hopefully.
+So this is another view of that. And we’ll conclude on the lifecycles stages and their influence on the software development.
+The slide gives you an idea of the difference between the product lifecycle and the project lifecycle.
+As we can see the product lifecycle is someone broader and the project lifecycle is shorter.
+So the product lifecycle, the entire lifecycle starts with a concept or an idea.
+And we search for an opportunity for a marked demand.
+And then we start elaborating the product requirements understanding what should it do.
+For the run of the project lifecycle starts.
+This is requirement design or high-level understanding what are the components of the software product and what are the connections between them: development, actually coding and testing the product, integration taking it all together or putting it all together as a product and transferring it to the user, to the customer.
+Basically by this transition we have the endpoint of the project lifecycle.
+As for the product lifecycle we proceed with change maintenance and maintenance of products itself, operation, commercial operation of the product, of the user’s, customer’s side.
+And then fortunately or unfortunately at the very end of the process we turn to retirements, product retirement.
+That ends the product lifecycle.
+In terms of lifecycle economics you probably remember the diagram where we first invest money and then we get the return on investment as soon as the sales start.
+So we have a steep upcoming if all goes well in terms of sales increase.
+Then we have the maturity stage which is basically stable sales.
+And then we have decline and retirement.
+However, what’s interesting is to analyze what is happening lifecycles stage with during this process.
+So we have a table in this slide where you can see how much is the impact of each every stage in terms of time and money, and how does this stage contribute to the product and project lifecycle.
+What is interesting here? Is that first of all the most time-consuming and money-consuming activity of the lifecycle, is maintenance.
+It’s on the bottom and it basically contributes to around two thirds of the project cost.
+That is a lot. 
+However if all goes well, if the maintenance policy is well-planned and if we’ve planned for strategical use of the products for different customers
+it helps us to get the money back, it pays back for us, and we actually return our investments, not just spend or waste money on maintenance.
+We get the better quality product, we get a product, which is suitable to more different kinds of customers.
+The other thing is that a coding itself is around… contributes to around 5% of the costs of the software project only.
+So coding, writing the code is not very expensive.
+However the embracing stages, I mean the stages which embrace the code, which are responsible for quality, are… require more costs.
+But they pay back in terms of quality.
+So these are the mean conclusions we can draw out of this table.
+The next picture we’re going to discuss is the so-called “Boston matrix”.
+This was developed by Boston consulting group in 1960-s.
+And this basically is a good tool to understand which products in our portfolio as a developer should be preserved and should be improved and which products should be probably retired.
+So here we have basically the same idea of investing money and getting money back or returning the investment. And then we have a decline.
+But this is a slightly different view of what’s happening in terms of lifecycle with the software product.
+So the first, the very first stage is the “Question mark”.
+When we have an idea, or a concept, or an early prototype perhaps of the product, but we do not actually know how well the sales would go.
+And the second stage is so-called “Rising star”.
+We invested certain amount of money and the sales suddenly start going up.
+And we’re returning our investments.
+And basically the sales are going easily.
+We did not need to actually make great efforts, invest a lot of labor in the sales.
+So there is a stable income by we are again below this zero profit level.
+We are in the gap still.
+However we’re getting out.
+The next stage is the “Milking cow”, which means that the sales are going well.
+And we’re getting the profit fortunately and eventually.
+And the fourth stage is the decline which is called “Biting dog”, means that we still have sales but we do not generate a lot of profit for us.
+The sales are hard to make and we actually are losing money, not getting money in terms of profit.
+Ok, so we have overviewed the economics of the lifecycle, the financial point of view and the managerial point of view.
+Let’s get to the core of the course – the lifecycle stages.
+We actually had slides with a table, which had all of these stages and their impact or the contribution into the cost and time of the project.
+Let’s focus on each stage specifically and try to understand what happens inside each and every stage.
+So first of all let’s enumerate the stages.
+They are: requirement analyses and specifications, design and implementation.
+As for design we have a preliminary design or high-level design with just outlining the basic models and their inner connections of the future software products.
+And the later run detailed design which describes in more details what will the product do and how this will be arranged according to the modules software, a product modules, or classes in terms of object oriented development stuff.
+For example implementation or coding and testing which actually are combined together, integration and testing getting the product together out of the different modules or classes.
+So assembling it together and then getting it to the user, transferring it to user with maintenance and retirement.
+What is essential to emphasize here is that each and every stage of the lifecycle process has certain deliverables or yields to certain documents like code, or certain diagrams like class diagrams, or test-cases which actually are the exit criteria.
+Which actually mean that as soon as they are completed we stop one stage and get or can get, can transfer to the next stage.
+However, this is not that simple in case of certain lifecycle models.
+First of all we’ll discuss simple models which basically are sequential.
+And afterwards we’ll discuss more complex models which are iterative, or which have loops or cycles of these phases going or happening iteratively, and also certain models in which these stages or phases overlap.
+Let’s go through the lifecycle stages one by one and see what happens inside each of them.
+The first stage is usually a requirement analysis.
+And this requires meeting of the client and the developer and their discussion what the product should look like.
+I usually say they meet in an informal atmosphere, drinking tea or beer and discussing the future products which are uncertain for each of these two sides.
+What’s really complex here or what’s really challenging here is that both sides speak different languages.
+Usually the customer uses business terms like time, money and competitors, strengths and weaknesses.
+Whereas the developer usually operates technical term such as certain technologies, bandwidth, well… things like programming languages, coding, debugging, architecting, designing and things like that.
+That is why it’s essentially important to arrive to a common understanding what the future project or future product will look like, what functions should it have in business wise and what technical constrains are there.
+So after the meeting ideally the client and the developer should… after one meeting ideally, maybe they need a number of meetings, maybe they need a setup of interviews at the actual client side for the developer to understand the production process, the business of the customer to some extends.
+So after a number of meetings often times they arrive to a common understanding hopefully of what’s happening and what is the main task, the core objective of the project and what is the goal of the product, what are the key functions of the product.
+That … it should satisfy.
+As soon as they understand this fairly well, they sign a document which is called requirement specifications.
+It can be more or less formal.
+In case of a formal document this could be called requirement specifications.
+In case of a less formal document this is just requirement checklist.
+But anyway the basic functions and basic limitations, or constrains should be explicitly formulated and stated in this document.
+And it should be signed.
+The document should be signed.
+And this is a legal document from now on.
+And this of course is used as a guideline for the subsequent lifecycle stages.
+Based on the preliminary stage of the requirement analyses the requirement specification stage follows.
+All the subsequent stages including this one, including the requirement specification stage are done basically by the developer.
+Of course there are some methodologies, which are called agile methodologies where the client and developer work together on these requirements and even on the testing.
+But generally they do not.
+Generally the subsequent stages starting from this one from the requirement specification are done by the developer.
+So based on the requirement analyzes document the developer elaborates specifications in terms of the critical functions.
+And maybe less important functions are prioritized certainly in terms of specific documents which explicitly tell how the software should do list of that function and what functions specifically are included into the product.
+Of course the development model and/or methodology should be chosen as soon as possible.
+We’ll talk about the methodologies in more detailed modules, in more detail in the next lectures.
+We’ll start from the models and then will switch onto methodologies, explicitly formal, not agile methodologies, which are better suitable for the enterprise software systems.
+But we will do that later.
+And what is also important the project specification document includes the major delimiters such as time and cost estimates.
+The next stage, which happens after requirement specification is the so-called detailed design.
+This is basically outlining what will be done in terms of modules and their interfaces.
+So how specifically will the architecture, the software architecture look like?
+What top-level modules will be identified and how will they interact?
+How many modules are there required?
+Which modules should be responsible for the user interface?
+Which modules should be responsible for the business logic?
+And so on.
+And the design is detailed down to the lowest level which in terms of object-oriented analysis and development, we’ll talk about this object-oriented model later, can be represented in terms of objects, their attributes and their functions, their methods.
+Of course these modules are not treated in isolation.
+They are going to function in the environment, in this software and hardware environment the customer already probably has setup.
+So in terms of the environment there can be certain differences in case of using, for example, Microsoft Windows Environment versus, say, a different environment like Unix based, Linux based environment, for example, or using Microsoft.Net versus Oracle Java Technology.
+So this should be understood in advance.
+This should planned in advance according to the software and hardware environment that user already has set up.
+The next lifecycle stage is implementation.
+This is of course based on the previous stages and detailed design specifically.
+So the architecture and the more detailed structure of the models and their interfaces designed and developed at the previous stage are coded in this stage.
+So coders, programmers on the developer side of course are writing the codes what should need the specifications both in terms of requirements and in terms of quality.
+So which algorithms should be used to make the search fast enough?
+Which algorithms should be used to make database connections and management more scalable?
+Which security algorithms, like encryption and so on, should be used to make the software secure enough and so on?
+So all these tasks are done by the coders, by the individual coders. And by the end of the stage each module or each class in terms of object-oriented approach should be coded and tested individually. This is responsibility of the programmers, of each individual developer.
+After the product modules have been developed individually they are integrated to make the product.
+Sometimes we go top-down, sometimes we go bottom-up from the operational modules down to the logical, the higher level ones.
+Sometimes we do the circle sandwich or hybrid integration when we go, both ways.
+Of course, we are not only connecting the modules together, but also testing them to make sure that the entire products behaves as it should in terms of both requirements and quality.
+As soon as this is done and of course the necessary documentation is developed parallel, we as developers ready to transform… to transfer, sorry, to transfer the product to the customer.
+And the maintenance stage starts after that. So we have to perform the acceptance tests on the actual clients hardware and software environment with the actual, the real worlds.
+Customers data this is actually the first time what we do that.
+We use artificial or fake data most of the time as developers when we’re testing the individual modules, modules and the product before doing this acceptance testing.
+But if this acceptance testing is done and if the acceptance testing is ok, so all test are ok, the software products are transferred to the customer and the maintenance stage begins.
+Concerning the maintenance stage this is, as we remember, the most cost consuming phase of the lifecycle.
+It costs around two thirds of the entire… entire cost of the project which is a lot.
+And this happens if we build these software products in a predictable manner.
+We use good processes and we manage lifecycle efficiently.
+If not we can easily go over budget, and so we should try to focus on efficient lifecycle management.
+The maintenance however is a must-have for each software product, whether it’s an enterprise scale or not we should plan for strategical use, for adequate maintenance and for predictable relationships and long lasting relationships with the customer.
+What should we do so?
+We should do so because we can get extra profits from the maintenance.
+It’s not just wasting or spending money.
+It’s investing money in order to achieve certain goals.
+These goals are actually corresponding to the major tasks of maintenance listed in this slide.
+What are these tasks?
+These are perfective maintenance.
+So sometimes we have to change, often times we have to change product specifications, because the user understands there are some new requirements, which should be added to the product already developed.
+Corrective maintenance of course is also a veiled task of the developer, because no single error in the product, no single defect as it’s called in the product is the final one.
+There are some errors and defects which had not been detected by earlier tests,
+I mean the acceptance testing and I mean the product testing.
+And they are still there and the customers locate them.
+And the customers want us as developers to eliminate these defects.
+So corrective maintenance is another maintenance activity.
+An adaptive maintenance is often used when we as customers want to migrate or plan to migrate to a new environment like when we were migrating from when it was eight to when it was ten for example we need to make certain corrections in our databases, structure and overall software architecture.
+That is why we probably need some custom tailoring of the product to meet the requirements of this new environment.
+So the economics requires around 70 % cost of the entire projects for maintenance, but it’s not wasting money.
+It’s actually investing money into productive and long lasting relationship with the customer.
+And this eventually results in payback.
+The final stage of the lifecycle is called retirement.
+And for enterprise software systems as for other kinds of systems this happens only after complete termination of using the last version of the software and the last user’s computer as was stated in the software lifecycle definition.
+So, of course, if the enterprise software system is still on demand, we have to migrate the data to the new applications.
+We have to do the export and import procedures to follow using this data in the next generation environment.
+We also have to fix certain things or keep certain things in mind while doing retirement.
+And first of all we have to assess, to estimate the cost of retirement and to understand whether we should do retirement now or later.
+Actually we should plan for retirement, so we should develop retirement plan for the products after we ship it.
+And so we should take into a consideration a certain number of factors listed in this slide.
+These are technology replacement costs including training personnel of the customer to work, to operate the new software efficiently and also development and maintenance cost for the new applications.
+We should also plan for a certain product activity drop down at the customer’s side.
+As soon as the new product, new enterprise software system in our case has been introduced.
+So this is a hard to decide task, I mean the retirements.
+Sometimes though we have to retire the product as it’s completely incompatible to the new environment or some new regulations.
+One example, what happened as this Y2K (year-two-key) problem when the large number of software products instantly became incompatible to the requirements and had to be retired.
+Let’s summarize the software project lifecycle stages and our early conclusions based on that, based on the discussion.
+First of all, software system development, whether it’s an enterprise scale or not,is a step-by-step process.
+So it includes a number of stages, which have clear deliverables and clear entry and exit criteria.
+We start… we usually start from an idea or a concept of the software products, of the future software products.
+And we actually end up with retirement,complete retirement of the product built and maintained.
+At the end of each phase of the lifecycle certain documents are generated whether it’s code, whether it’s comments to code, whether it’s certain piece of user documentation, or developer’s documentation, or something else.
+And these are basically the exit criteria for each of every lifecycle stage.
+So we can say that the lifecycle has a document drift.
+So theoretically we have clear entry and exit criteria and clearly developed rules for generating these documents in practice.
+The situation sometimes is a little bit more complex.
+We, of course, should learn the entire lifecycle and understand each and every stage of this lifecycle in order to make the lifecycle management predictable, cost effective and efficient in terms of time and budget.
+And we should be able to analyze, plan and improve the lifecycle.
+As for the software development in general this is a multi-criteria optimization, which includes the project triangle and some other aspects called quality attributes.
+And each time the priority of these factors or these criteria is dependent upon the project size and scope.
+Do product and project lifecycles differ?
+And what is the difference?
+Are the software development lifecycle phase boundaries fixed or flexible and why?
+Which software development lifecycle phase is the most cost expensive?
+Which phase requires more money and why?
+Which other phases are used to improve software systems quality and why?
+Do the software development lifecycle phases need documenting?
+Can you identify the typical software development lifecycle phases?
+Thanks.
+We have discussed software development lifecycles in general.
+Let’s switch on to lifecycle models.
+We’ll discuss a number of models.
+These are Build-and-Fix, Incremental, Waterfall, Rapid prototyping, Stabilization and synchronization, and Object-oriented.
+For each of the models we’ll overview their drawbacks and benefits.
+And we’ll see how they can tribute to the lifecycle management.
+Of course, there is no silver bullet; there is no absolutely adequate model for each and every project.
+And so we’ll see how the lifecycle stages happen and how they are changing in each and every model we discuss.
+Let’s see what similarities exist in the lifecycle models.
+Let’s see, which stages are present in each and every model and how these stages are related to each other.
+Let’s recollect these stages, first, the lifecycle stages.
+These are requirement analyses, requirement specification, high-level design or architecture design, low-level design, implementation and testing, integration, maintenance and retirement.
+Basically these stages are present in each and every model.
+However, in some cases they follow each other in a straightforward manner, in just one pass manner, like in a Waterfall model.
+The other models, such as spiral or incremental, require iterations or loops.
+And the model steps or lifecycle steps sequence is more or less the same.
+The rest of the models like object-oriented model, for example, require certain interaction and overlaps of different stages of the lifecycle.
+So we’ll see this in more detail later.
+A basic consideration about the models is that there is no silver bullet; there is no single best model, which suits each and every project and which is applicable for each and every product.
+However, we have to tailor the models or to combine them wisely in order to achieve a good ratio of the custom benefit of the efforts put into the software production and the yield, the ultimate result for the customer.
+Generally, as for the software lifecycle models, what do they define?
+The models define economics of the projects and the software or products on the impact of each and every phase into the product economics like we probably remember that maintainability is the most cost consuming phase of the project.
+It amounts to nearly sixty or even seventy percent of the cost of the project.
+Of course the models also define return on investment and risk management policy.
+Some of the models like spiral model for example, involve intensive risk management.
+There is a number of aspects like scale and scope of the product-to-be-built, which are also dependent on the models we choose.
+For example, build-and-fix model is specifically constructed for building small scale products.
+Whereas spiral model or object-oriented model suits better for larger scale projects, even for the enterprise size projects.
+Some other aspects like quality attributes, maintainability and things like that are also model dependent.
+A project architecture in terms of scaling up and the way it is evolving, like whether the product development pace is more or less revolutionary or evolutionary is also model dependent.
+Error detection and removal rate also depend on the kind of model we use to certain extend, and product completion degree whether we going to build prototype or an intermediate solution, or a full scale product is also depending on model we use.
+Ok, let’s make some early conclusion after overviewing of the lifecycle models, and how they influence the software development lifecycle.
+There is no silver bullet.
+There is no absolutely universal model, which suits each and every product and which is applicable to each and every project, because each project is unique.
+And it requires specific resources in terms of time management, cost management and the deliverables of the functions, which are ultimately delivered to the end-user.
+However, in general, the model choice is very influentional for the product results and for the project results including time to market, return of investment, risk management and customer relations.
+Sometimes a wise model choice could help in establishing longer and more productive relations with the end-user, make these relations more predictable and efficient.
+Which software development lifecycle models do you know?
+Can you identify?
+What do major models have in common?
+And why?
+Conserning the lifecycle stage of course.
+Is there a universal software development lifecycle model?
+Why or why not?
+Is it possible to combine several software development lifecycle models?
+And why or why not?
+Does the choice of the software development lifecycle model influence the product?
+How and why?
+If yes, or why not?
+Thanks.
+The first module we are going to discuss is the waterfall model.
+The idea of the waterfall is that each and every stage of software development lifecycle is happening sequentially and after it terminates the next stage begins.
+Same with waterfall, water goes down, never goes up.
+And while one stage is covered, after a while, after one stage is covered, the next stage begins, not the other way round.
+So the waterfall was introduced in 1956 by Herbert Benington, and more formal definition of this model was given by Winston Royce in 1970.
+And the earliest use of the term "waterfall" was in 70-s, in late 70-s by Bell and Thayer.
+So what are the significant or essential features of the waterfall model?
+What is really specific of that?
+And how does it happen, how does the lifecycle happen according to the waterfall.
+We will consider these issues shortly.
+How does the waterfall lifecycle happen?
+We can see this in the slide.
+We have sequential changes of the lifecycle stages, such as requirements, analysis and specification, design, preliminarily and detail design, of course, coding and testing, and integration, implementation, transfer and maintenance, which happen sequentially, never happen concurrently, no iterations, no loops, no backtracks.
+One straightforward waterfall way.
+What’s also essential is that each and every stage is terminated by verification.
+This is done using the documents produced.
+Each and every stage is covered by specific documents such as technical requirement specifications, such as software code and documentation, testing documentation, and things like that.
+As soon as the requirements are produced, there are verified with the customer, the document is signed, and we move on to the next stage.
+So this is how waterfall lifecycle happens.
+Summing up the features of the waterfall model, let’s summarize the benefits and drawbacks.
+First of all the lifecycle model stages are fixed and the processes are straightforward, downwards and the software passes, the software product passes sequentially all the lifecycle phases starting from analysis and specification of the requirements and ending up with maintenance and retirement.
+The documents are signed after each and every stage and this actually is the exit criteria for the stage.
+This indicates that we can move on to the next stage.
+We have SQA group (Software Quality Assurance group) which verifies and test results of every stage, and signals whether we have a chance to proceed to the next one.
+Sometimes the client’s side participates, but that depends on the methodology, we will discuss methodologies in the next lectures after we discuss models.
+So, this model, the waterfall model is a cost effective one, because it is straightforward, and if the client really understands to a great detail what the product should look like, if it is developable in just one pass.
+That’s basically manageable and this is really cost effective in terms of lifecycle.
+So we have also internal feedback within each and every phase.
+The verification word we have seen at the bottom of each box indicating the lifecycle stages, explicitly tells us that the feedback follows at each and every stage and as soon as the exit criteria is satisfied, we can move to the next stage.
+Of course, this approach requires the technically literate client.
+So the client should understand how the technical specifications are prepared and how they should be read, how they should be understood and interpreted.
+And even the client should understand something about UML-diagramming and things like that, representation of the software architecture and have a working knowledge of what is happening within the standards of the software documentation.
+And these may be numerous and rigorous enough, so the understanding should be present to a great detail.
+Of course, if we have high risks during the product development, there is no way to get to the previous stage after we have completed the current one.
+So we can use rapid prototyping, and generally it’s a wise solution to combine different models together.
+In conclusion, what can we say about the features of the waterfall model?
+Well, first of all, it requires and includes clear and crisp project discipline.
+This is because we understand the deliverables, we understand as the customers, and the developers, what should be the deliverables for each and every stage.
+Whether it’s a document, a requirement’s document and architecture document, whether it’s code, and user documentation, or something else, we clearly understand the deliverables at each and every stage.
+That is why the development under this waterfall model is document-driven.
+As soon as we receive a certain document done, this is basically the exit criteria for each and every stage.
+As soon as we receive the client’s approve on that, as soon as these documents are signed, these documents are signed by the client and the developer, we can move on to the next stage.
+The software, however, I mean the final software product, however may not fully meet the client’s requirements.
+This is an evident drawback, because this is one pass development.
+However, if the requirements are clear up friend, this is a great approach to follow because it is really cost effective in terms of time and budget.
+The changes, let’s one more drawback, the changes in the product can be complicated, because the product is "frozen" after each and every stage is complete.
+As soon as we finish, for example the architecture design, we can not change anything in architecture.
+As soon as we finish testing, we can not test anymore, we should transfer the product to the client.
+One more thing is that the waterfall model does not allow any iterations, any backtracks, any loops within the lifecycle development and it does not allow any evolution or revolution in the development.
+It can not, I mean the product can not be changed or improved incrementally.
+Should a lifecycle model always be iterative and why?
+What are the strong points of a non-iterative lifecycle model or lifecycle models?
+If any?
+This is the same about the weak points.
+What are the weak points of a non-iterative lifecycle model?
+Thanks.
+The next model we are going to discuss is called incremental.
+We’ll talk about the lifecycle in terms of the interchanges of the stages and how these stages are interrelated to each other.
+And of course we’ll discuss the shortcomings and the benefits of the incremental model.
+The difference between the incremental model and the waterfall model, we’ve just discussed, is that incremental model implies loops or certain backtracks.
+And the software is developed in iterations and in releases.
+This means that the new functionality is built on top of the existing one.
+And each stage evolves building extra functionality on top of the previously built one.
+So the idea as you can see in the slide is that we usually have several iterations.
+In case of this slide we have 3 iterations.
+This is much like matrioshka dolls or the functionality starting from the core and ending up by building the increments on top or around that core.
+So the very first iteration usually requires building the core of the system.
+It can be the top most functions or the functions which are required to be build first.
+Basically we get the product, an operational product at the end of every iteration.
+The steps within the iteration are the, so to say, classical steps of the lifecycle.
+So we have the requirement’s analysis, requirement’s specification.
+We have the design, preliminary and detailed design.
+We have the implementation with testing.
+We have the integration and testing.
+We have maintenance.
+So we can start maintenance and transfer, make transfer for each of the increments developed, for each of the releases developed.
+That’s the idea.
+Every stage, same as with the waterfall model, of course has documentation development and verification.
+However, the idea is that the product is divided into several functional updates or releases put on top of one another.
+And for each release, the process, the lifecycle process yields to a fully operational, but not fully functional product.
+That’s the idea.
+So each release includes detail design, implementation, integration, tasting and transfer as it is said in the slide.
+Let’s summarize the benefits and the drawbacks of the incremental model.
+What are the benefits of the model?
+First of all this model provides early return on investment.
+Why does this happen?
+This happens because the product is developed in incremental releases, and each release is fully operational.
+It can be used at the client’s side as soon as it has been transferred.
+So the client can get an easy to use, in a small scale in terms of functions of the software product required.
+The client can start using this product as soon as possible.
+The product is easy to use because it has really,not numerous functions, but rather it has a very compact and concise framework at first.
+So it is easy to introduce, easy to learn how to use, easy to use, ideally, and then on top of that we can scale up, we can build more and more functions.
+So this means that the client can easily get better return on investment.
+The other thing is that, the benefit is that the incremental model supports better maintainability.
+This is because, again, the fully operational fresh release, as soon as it is transferred to the client, it is operational and it is relatively simple.
+So the client better understands simple products with less functionality and the client’s side users get accustomed to how to use that, and later on they receive richer functionality, so they do not receive all at once, they do not receive a really complex product, but rather they start low, and this provides, of course, better maintainability.
+As for the drawbacks we also can identify a couple of that, of those.
+The first disadvantage clearly indicates that the incremental model requires an open architecture.
+What does it mean?
+This means that the product should scale up from one release to another.
+So it should be possible to develop the product in an evolutionary manner rather than in revolutionary changes.
+So if the product requires significant updates which have an impact of the architecture or something else, so should be redesigned, redeveloped in total, in a waterfall, a manner of saying, this does not really comply with the incremental approach.
+That is why the architecture should be open and should scale up in terms of different releases, in terms of incremental development.
+If it does not, the incremental approach is not applicable.
+The other thing is that in case the product appears to need the revolutionary way of building it or if the product should be built as all at once in a waterfall way, the incremental approach benefits, such as early return on investment and such as better maintainability, are lost, and, it degenerates into build-and-fix or CABTAB (code a bit, test a bit) approach.
+So we have to redesign, rebuild the entire product until the client is satisfied.
+This is inapplicable again in terms of the incremental approach, and this is one more shortcoming.
+In conclusion let’s summarize the features of the incremental model.
+First of all the software is decomposed into a number of sequential releases, which include different functionality built on top of each release.
+So the idea is that we first build a core release with the basic functions, with the functions, which are must-have.
+Then we build a number of releases with should-have, could-have requirements which are less required in terms of time and perhaps in terms of importance, and which are built on top of the first release.
+However, each release after it has been produced is a fully functional software product.
+This is shipped or transferred to the customer and used immediately.
+So we have an operational product at every step, which is a clear benefit.
+The new functionality is introduced in a flexible way, because it is introduced step by step and release by release at the client’s side.
+And the maintenance they are with is simplified or gets easier maintenance in terms of introducing the new functionality in the step by step manner at the client’s side.
+Which “cyclic” models of the software development lifecycle do you know?
+Can the incremental model be called cyclic or not? And why?
+What about the waterfall model?
+Can this be called cyclic? And why?
+Thanks!
+The next module we are going to discuss is called rapid prototyping.
+This is based on a number of research results.
+Some of which date back to 1980-s and later.
+So the first basic prototypes basically date back to 1980-s, and then the technology appeared which was called paper prototyping, where we did not actually build software prototypes or people didn’t actually build software prototypes, but they build rather their instances in paper, in hardware, so to say.
+They were used for usability testing and the related issues.
+Some of the related research dates back to the 90-s and later, which is related to Jim Highsmith and his RAD (Rapid Application Development) technology, which included a number of stages called speculation, collaboration and learning.
+Well, with this, the rapid prototyping in general started and let’s overview how we can view this in terms of lifecycle stages and their management.
+Let’s see how prototypes work in terms of the so called «shark teeth» model of software development, which is based on iterative prototyping and using this together with the lifecycle steps, we have discussed before.
+You can see this in the slide, and, of course, the basic steps or basic lifecycle stages are pretty much the same.
+These are requirement’s analysis, requirement specification, implementation, testing and later on integration and testing and transfer to the customer.
+However, each and every step is related to building a prototype, which actually is used to verify whether we’re moving right or wrong in the direction of building the product for the customer.
+So a prototype is basically a fast and efficient way of verifying if we’re on the right path or on the right track to the product.
+And the prototype sometimes helps to interact with a technically illiterate client, who does not understand UML-diagrams, regular technical specifications and thing like that, but who instead users business terms for communications.
+We can use this prototype to address certain needs of client and to illustrate how the product would behave in terms of certain quality attributes or usability, for example, in terms of appearance, in terms of interface, user interface, graphical user interface in particular.
+So we can easily test the client’s reaction on certain properties of the product using the prototypes.
+But let us remember that the product and the prototype are two different things, and the prototype is not a product in terms of reliability, scalability, availability, security and often usability.
+So the prototype just resembles the product’s behavior in same aspects.
+It’s not a product.
+Let us summarize the major benefits and shortcomings of the rapid prototyping model.
+First of all, this is not a self-consistent model, this is not an independent model.
+It should be used in conjunction with some other models like waterfall, incremental or something else.
+However, by itself, the rapid prototyping results in a fast and efficient way of communication with the client, because it insures we’re on the right track of building our product in terms of functionality and sometimes quality attributes.
+The prototype resembles the product in some aspects, so we can get just the basic aspects of the product behavior.
+However, a prototype is not a product and it can not be used as a product.
+And this is an essential drawback.
+As developers we sometimes have a temptation of keeping the prototype code.
+However, this is not a product, because it has not been thoroughly tested.
+It can contain an errors, it can be even developed in a different language than the product itself.
+And it, sure, is often not reliable, not scalable, not available, may be not usable and not well documented in comparison to on actual product.
+Let us summarize the benefits and drawbacksin terms of conclusion for the rapid prototyping model.
+First of all, it’s not self-consistent, it’s not an independent model.
+It should be used in conjunction or in connection, in combination with some other models like waterfall or incremental, we’ve just discussed.
+And it does not yield to a fully functional product in terms of reliability, scalability, availability and quality attributes like that.
+However, it can help in certain number of aspects.
+For example, if the client is technically illiterate and can not communicate in terms of UML-diagrams or some other formal models, usually applied during the product development, instead we as developers can demonstrate a prototype to client and make sure we are on the same page, we’re on the right track of the product development in terms of its interface and certain functional features.
+These are especially valuable, the prototypes are especially valuable at the early development stages, such as analysis and specification of requirements, because each and every error in this stage may result in serious money loss and time waste at the subsequent stages of implementation, integration, and maintenance, because if we make a serious mistake, a conceptual mistake at this early stages we are doomed to reimplementing, remaintening of the product.
+So, it’s a different thing and we’ll have to waste a lot of labor time and money to rebuild, to completely rebuild the product.
+The prototype can help us to try and maybe to backtrack in case of the inadequate result.
+So we can do this in a quick and efficient way.
+First of all, how can prototyping help in software development?
+Is the prototyping self-consistent and why?
+How is prototyping used in the “shark teeth” model?
+Thanks.
+The next model we are going to discuss is called spiral model.
+This was introduced by Barry Boehm in 1986 in his famous paper called “A Spiral Model of Software Development and Enhancement”.
+Later on in 1988 there was another paper, published by the same author to attention of the wider audience.
+So what are the basic features of the spiral model?
+And what are the lifecycle features the spiral model adds to software development?
+Well, spiral model is a risk focused one, and it combines best features of waterfall and incremental model, because basically the software is developed in iterations.
+However, each of them looks very much like waterfall.
+As we’ll see, each development step of the model, of the spiral model includes waterfall like four stages.
+And these are the loops of the spiral.
+So how does this happen?
+Let’s see how the spiral model lifecycle looks like.
+As I said, it includes four stages, four distinct stages, which we can identify as plan, assess, develop, and define.
+So the first stage is define, define objectives, then we have to assess alternatives, than we have to develop according to the alternative chosen.
+And then we plan the next iteration, as you can see in the slide.
+So what happens during the first stage — define objectives?
+Basically, this is early conceptualization step, which prefers to or corresponds to the requirement analysis stage.
+We identify the product, the business goals, and all the objectives and understand the constraints and figure out the alternatives.
+Then we turn to the step two, which is assessing these alternatives.
+Here, as we can see, in the quadrant number 2, we have intensive risk analysis and rapid prototyping.
+So rapid prototyping can be used in conjunction with the spiral model.
+As soon as we have assessed alternatives and we know our way to the best possible alternative at this step of the spiral, we proceed to the step number three, which is actually development.
+This is architecture development.
+This is design.
+And this is implementation and testing.
+So basically we produce detailed design rather than architecture.
+We code.
+We test.
+We integrate the product.
+And we are ready to transfer it to the customer.
+So we proceed to the step four, which is planning the next iteration.
+We basically finalize the development in terms of getting the documentation together, in terms of final acceptance testing of the product, in terms of transferring it to the client and planning for the next release.
+This is how the lifecycle steps of the spiral model are organized.
+Let us summarize the benefits and drawbacks of the spiral model.
+First of all it combines the benefits of waterfall model and the iterative models, like incremental models, because the development is document driven, first of all.
+And the overall process is straightforward and regress.
+So we can identify the goals in each and every step, we can identify the deliverables, and we can follow this process.
+This is one benefit.
+The other benefit is that we do not actually develop the product, the full scale product all at once, as we do it in waterfall.
+Instead we plan for several cycles of iterative development, which actually can be done in an incremental way often times.
+So we can develop the core of the product and then we can enhance it by adding functionality at each and every loop of the spiral.
+As for the disadvantages, however, they basically depend on the risk assessment, which is very intensive and which is a part in parcel of this model, which is an integral part of this spiral model and which are requires intensive labor of expensive risk assessors — people, who are to take into consideration many aspects of the product development and people, whose labor is very expensive.
+That is why the spiral model is applicable to large scale products and projects such enterprise software.
+The other problem is that developers and clients are clearly different sides, and we sometimes have to reveal the confidential or sensitive information about the business processes, happening at the client’s size to the developer’s size or the risk assessors,which is intermediate side sometimes.
+Anyway we have to reveal this sensitive information to a third party, which is a challenge.
+That is why a wise decision in terms of enterprise software development would be hiring this risk assessment personal as a part of an enterprise or having these risk assessors as the employees of the enterprise.
+This could help to prevent leakage of the sensitive information outside the enterprise.
+And in this case this is called in-house development, where we have the client and the developer inside one and the same enterprise as different companies or different subsidiaries working there.
+In this case we can afford the spiral model, both in terms of cost effectiveness and in terms of security.
+So what conclusions can we draw concerning this spiral model?
+First of all it takes together, the benefits of such models as waterfall and incremental ones.
+And also it uses rapid prototyping for assessing or evaluating alternatives and choosing the right development path.
+This is based on the waterfall model and risk analysis and another distinctive feature is risk analysis, which is happening in each and every loop of the spiral.
+So this requires labor, an expensive labor of risk assessment people.
+And this is a challenge of the model, of course.
+And an essential feature is that a project should be terminated, if critical risks cannot be medigated.
+So this is a risk depended model.
+And usually several stages or steps of prototyping and several iterations of development are required.
+What are the strengths of the spiral model?
+Why?
+Can you name these features, these strengths?
+What are the weak points of the spiral model?
+Why?
+What are the 4 phases of spiral model?
+Thanks.
+The next model we are going to discuss is the object-oriented model.
+The first object-oriented programming languages came into being in late 1960s, 1970s.
+However the model became really popular or widespread in 1990s with the invention of such languages as C++ and Java.
+Let’s see what are the most important features of the object-oriented model.
+Well, of course, this is an iterative model.
+The software development happens in phases in an iterative style, in loops, and basically the major steps are more or less the same, I mean the lifecycle stages are pretty much the same: requirement analysis, requirement specification, implementation, preliminary and detailed design before implementation of course, implementation and testing, integration and maintenance.
+However, what is really essential and important here is that certain phases overlap and they have significant parallelism, so they can be done in parallel.
+And also there is a significant interaction between a number of phases.
+A common term is object oriented analysis and design.
+This means that analysis and design often happen in parallel and they support each other.
+So these are basically the major features of the object-oriented model.
+One more essential feature is that backtracks are allowed to the previous stages like we can move from object-oriented design back to object-oriented analysis, make some corrections and then return to the design stage and correct something here.
+So these are basically the main features of the object-oriented model.
+In the slide you can see this parallelism and interaction in terms of overlapping circles or ovals, which represent the lifecycle stages.
+For example, implementation and integration goes together or, as really related and overlapped, with the design stage.
+And design overlaps with analysis.
+In the scheme you can see a version of this object-oriented model called fountain model.
+However, in general the steps and the features of the object-oriented model are pretty much the same.
+Let’s summarize the benefits and drawbacks of the object-oriented model.
+As I said the object-oriented model allows and provides for intensive parallelism and interaction between the phases.
+This is basically a benefit because the software can be produced in a more efficient manner.
+It’s possible to make the development in parallel.
+I mean we can separate the modules, so that certain modules are developed by certain part of the team or even different teams together in parallel and there are assembled into high level modules and sub products, parts of the product and later on they become a product.
+In this case because of the parallelism, this is not like a waterfall manner of building the product, we can reach the product readiness before the deadline, because we are developing in parallel.
+So if we develop in waterfall manner, we have to set this deadline to a point of time much later.
+So the idea is, that, if everything, all the product parts are developed on time and delivered on time, the development happens faster and, thus, it’s more efficient.
+However, this can also be a significant drawback in case the team is mature and has little experience in development and in interaction or the standards, the development standards are not really met.
+In this case the partial products supplied do not really meet the requirements and we have to wait before they are adjusted and improved in order to meet these requirements.
+In this case the delivery of sub products, of parts of the products are often late.
+And what actually happens, we have to redo the entire lifecycle or a part of it, every time we are developing or redeveloping things, sub products in parallel.
+And, thus, the development cycle turns into a CABTAB (code a bit, test a bit) or is pretty much like build-and-fix manner.
+As for the object-oriented model let’s see what are its main features, its benefits and shortcoming, so let’s make an early conclusion on that.
+Object-oriented model came into being rather late, so it’s fearly recent.
+So it’s rather complex.
+It includes intensive parallelism and overlap between the phases.
+The nature of the model, however, is iterative, so the product is developed in loops, it can be developed incrementally, but the idea is this, the main idea of the model is this intensive parallelism and overlap between different lifecycle stages such as object-oriented analysis and design which often come in parallel.
+And thus, this requires serious level of discipline, software developing discipline, and maturity of the team or many teams which are developing the product.
+If the discipline criteria are not met, the development turns into CABTAB (code a bit, test a bit) manner and the overall lifecycle resembles build-and-fix manner.
+One more important feature is the backtrack possibility from the later stages to the early ones.
+So this is basically what we heard about the object-oriented model and these are its main features in their summary.
+Is the object-oriented model an iterative or a sequential one and why?
+What are the lifecycle features of the object-oriented model?
+What are the challenges of the object-oriented model?
+And how can we manage these challenges?
+Thanks.
+After we have discussed a number of models of lifecycle, software development lifecycle, let’s see what are its features and what are the critical differences between them.
+Let’s try to find similarities and differences in order to make inform decisions on software development.
+For this, we’ll summarize the drawbacks and the benefits of each model in a table.
+You’ll see it a little bit later, and we’ll discuss that.
+First of all let’s discuss the similarities.
+Of course the software is developed according to the lifecycle, which includes a number of stages:requirement’s analysis, requirement specifications, preliminary and detailed design, implementation and testing, integration and testing and maintenance.
+So this sequence of actions happens in most cases in the same manner, in the same way for each of the models discussed.
+However, certain models like build-and-fix exclude certain steps of this lifecycle, such as early requirement’s analysis is often missing and high-level design is also omitted sometimes.
+As for the object-oriented model the development happens in parallel, so that certain lifecycle stages are overlapping.
+Other than that, the sequence of actions is more or less straightforward.
+However, for some models like waterfall, it happens in a sequence, it is just one path model.
+For the rest of the models they are basically iterative, and they require a number of loops with sequential elaboration of the software product.
+Of course there is no universal model.
+There is no silver bullet which can be equally applicable to each and every software project or product.
+One more important consideration is that the models can be combined.
+And many of the models can be combined with a rapid prototyping.
+And of course each and every model has got advantages and drawbacks.
+And these are understandable only in the context of the project and product, size and scope.
+Let’s summarize the advantages and drawbacks of the lifecycle models in a table.
+You can see the table and we'll get every model in more details using this table, which summarizes the drawbacks and the advantages of each and every model.
+Let’s start with the simplest model, which is build-and-fix.
+Well, build-and-fix as we already know includes the major stages of the lifecycle, so this is not a full lifecycle, incomplete lifecycle model.
+And it usually excludes preliminary analysis and high-level design.
+So build-and-fix model is suitable forsmall scale products, which size is usually bellow one KLOC, one kilo lines of code, one thousand lines of code.
+And in this case it helps to efficiently implement these small scale products.
+So it’s not really usable for enterprise scale, large scale products and any non-trivial products, which require critical updates and critical reconstruction and redesign during this updates or which are complex.
+The next model — the waterfall one is document driven, is straightforward, is one path model.
+So all the stages are basically covered once and as soon as the document is signed, like requirements document or code and documentation is done, we can move on to the next stage of the waterfall, we usually move upside–down, so the waterfall never moves up.
+We just have one path.
+That is why this is good for the products which are understandable, which are well-defined, and where the customeris probably technically literate or at least can specify what he or she wants in term of requirements.
+And otherwise this model is usually hard to apply.
+So the possible consequence is that the software product would not meet customer’s expectations.
+After this one path the result will be unsatisfactory.
+The rapid prototyping is the next model.
+This is a non-independent model or a dependent model is usually applied in conjunction with some other model.
+This is good to get away of understanding in which direction we are going to move.
+We can test the product.
+Not necessarily the product, but rather certain features and functions of the product.
+So the prototype is not the product.
+It is usually insecure, non-reliable, it is not really tested well enough.
+So the prototype cannot be used as a product.
+And normal recommendation is as soon as the prototype is ready we throw it away and we redevelop the entire product from scratch, from the very beginning.
+The prototype, however, helps to understand a perspective direction of moving, of implementing or improving the product and in case we have certain risks or doubts in term of where to move and should the product look like in terms of interface or certain functions, we can discuss that with a user, with a client based on the prototype.
+So a temptation of reusing the prototype code should be avoided.
+The next model is incremental.
+The incremental model gives us fast return on investment, because we can implement a part of the product, its more critical or most needed functions first, and start with this as a product.
+Then we develop on top of that the next releases, which are more and more fully functional product.
+But every release is operational.
+So the incremental product gives us better return on investment, generally, and better maintainability.
+But again — this is not suitable for each and every product, because the user sometimes does not understand the product requires an open architecture, and it can be developed and improved in evolutionary manner.
+If it requires a revolutionary redevelopment of the next release, which means we have to redevelop the entire release from scratch, we lose all the benefits of this incremental up scaling of the products, and the entire development becomes CABTAB (code a bit, test a bit) or build-and-fix approach, which is too expensive, of course, and unaffordable.
+The next model is synchronization and stabilization.
+This is not widely used outside of Microsoft.
+This usually meets future needs of the customer.
+However, we do not go deeper in terms of this model.
+The next model is a spiral model.
+This combines the benefits of document driven and strict waterfall model and the iterative nature and risk analysis of incremental model and other models.
+However, this model, the spiral model is risk oriented.
+That is why we normally have to assess risks during development.
+And this requires labor of really skilled and highly qualified professionals, who are called risk managers.
+And thus, the overall development cast are really high.
+That means that the spiral model is acceptable for enterprise or large scale products only.
+And the other drawback is that we have to reveal the essential or critical information sensitive business information to the risk analysts.
+And so…
+A better way of implementing this spiral model is the in-house development, where the customer and the developer are basically two companies, one on the same enterprise.
+Those the critical information, the sensitive information revealed does not really leak out of the enterprise.
+In this respect the development is safe and secure.
+The last model we’ve discussed is the object-oriented model.
+This includes basically an iterative sequence of all the stages of the lifecycle.
+However, it features intensive parallelism and overlapping of the stages.
+And so it requires a high level of development discipline in order to deliver all the product parts or sub products just in time.
+Otherwise the development becomes an anarchy and it can degrade into a CABTAB (code a bit, test a bit) or build-and-fix approach.
+So these are the benefits and drawbacks of the models summarized.
+Does software development lifecycle model choice influence the product development and how?
+Which software development lifecycle models are usable for large-scale products?
+Do software development lifecycle models always include the same stages in the same way?
+Thanks.
+Let’s make a conclusion on the software development lifecycle models.
+So the errors of locating the defects and deradiating these defects increases exponentially as we move on from one lifecycle stage to the other.
+So as early we detect the error, the better and the more cost effectively lifecycle is.
+Of course we have certain tools for that and certain techniques for detection and for removal of errors.
+And one more consideration is that each and every stage of the lifecycle includes specific models, processes and tools.
+These three things — models, processes and tools are essential for each and every stage of the lifecycle and the lifecycle in general.
+One more important consideration is that there is no silver bullet, there is no unique lifecycle model, which is equally applicable to each and every task, each and every product and project.
+However, we can combine certain models, for example, using prototyping and we can wisely select these models based on their drawbacks and strengths.
+And we can relate this to the product size and scope.
+So we can combine models and keep in mind that all of them have certain advantages and drawbacks, we’ve just summarized.
+After discussing the lifecycle models let’s start to talk about the methodologies
+That’s a set of practices, methods and tools, required to develop software.
+We are going to discuss the enterprise specific methodologies which are Rational Unified Process and Microsoft Solution Framework.
+We’ll refer to the first one, it is RUP and the second one is MSF.
+These are formal, heavy or large scale methodologies, usually well suitable for developing enterprise scale applications.
+Of course there is a number of of more specific techniques, called agile methodologies in general and used to develop smaller scale applications or applications in critical conditions, like crisis conditions, resource deficit, rapid requirement changes and things like that.
+In this course we will not address the agile methodologies.
+Specifically these are SCRUM, extreme programming, XP, and agile.
+We’ll focus on RUP and MSF — Rational Unified Process and Microsoft Solution Framework instead.
+Concerning the software development methodologies we are going to discuss the two of them, two examples, which are MSF and RUP — Microsoft Solution Framework and Rational Unified Process.
+We’ll start from the Rational Unified Process, which is a rigorous set of processes or a process framework, required to develop enterprise scale software and other kinds of software as well.
+This was introduced by rational software company.
+And recently it has been acquired by IBM Corporation.
+However, the trade mark and the overall name remain the same — this is rational.
+And this is a number of roles, processes and artifacts required to develop software in an efficient manner.
+Basically this is an iterative development and risk management focused methodology.
+As for the Microsoft Solution Framework this was introduced and predominantly used by Microsoft Corporation as an experience of their previous projects and products software solutions and its practices.
+This is more team focused.
+And this is also a process management framework.
+So we’ll start with the Rational Unified Process.
+So let’s introduce the principles and practices of Rational Unified Process.
+Concerning the principles, as I said it’s iterative development.
+So the lifecycle development is basically iterative.
+It’s architecture-centered.
+By that we mean that the main goal is to establish a stable architecture as soon as possible and follow that preliminary design stage rigorously by the subsequence development stages.
+And it’s use-case based, so one of the major artifacts is so called use-case diagram, which is a basic functionality of the software, and these functions into relation with each other.
+Another aspect of Rational Unified Process is that this is an adjustable framework, a technological product, which guides the developers at each and every lifecycle stage.
+A brief history of Rational Unified Process dates back to the 90s, and it has three contributors, three main authors or fathers of RUP, who are Ivar Jacobson (in English), Grady Booch and James Rumbaugh.
+These three people were the most influential contributors.
+And they are basically the authors of the RUP concepts, principles and practices.
+The first RUP version appeared in 1995.
+So that was the development start.
+The version 1 actually appeared a little bit later, in 1998.
+And RUP is a process framework, which is used to support software development.
+It is a multi-level, and it’s a customizable and adjustable process framework.
+The other methodology we are going to discuss is Microsoft Solution Framework or MSF.
+It appeared approximately the same date as the RUP, in 1994.
+And it is based on the Microsoft experience, a large number of previous projects on software development and also consulting.
+What is important?
+MSF is collocated with MOF (Microsoft Operation Framework), so it’s not only build-it-right, but also use-it-right.
+So Microsoft is focused on the entire lifecycle of the software product including not only development, but also delivery and post-delivery and maintenance and things like that.
+So the current version is basically version for something.
+And, of course, this is a set of recommendations.
+So this is also an adjustable, a very flexible process framework.
+Microsoft Solution Framework is artifact driven.
+Microsoft calls this artifacts deliverables.
+And so this is a deliverable based approach.
+The MSF includes two ready to use meta-model frameworks which are called MSF Formal and MSF Agile.
+This means that the approach is flexible and it can be used for large scale systems in the formal version and smaller scale in more flexible systems and conditions in the agile version.
+Consigning the MSF history, the approach was framed in 1990-s.
+And the original idea was to maximize return on investment.
+Again this was not only a software development, but also software deployment, maintenance and consulting methodology, so it focused on the entire lifecycle and had a little bit broader spectrum as compared to RUP, for example.
+So the idea was even to improve some contract relations, so it had a number of ideas originally.
+And the early version, the first version again came in to being in 1994.
+The current version is version 4.
+And MSF includes a number of guides for different process management aspects and software development and maintenance aspects which are called guides.
+Basically the MSF includes 5 guides on the process model, team model, project management and model, risk management model and maintenance management.
+To recap and review let’s discuss why do we need a methodology.
+A methodology, again, is a set of models, processes and tools for software development, maintenance, deployment and perhaps later consulting.
+The idea is that software development is a multi-factor optimization.
+So this multiple criteria or factors in which the optimization takes place are, of course, the project triangle sides: these are time, these are budget and the functions.
+However, a number of quality attributes also comes into consideration at certain point of time.
+This can be maintainability, this can be security, availability, performance and a number of other quality attributes, and their priority is always unique for each and every project and product.
+And this is determined by the project and product size and scope.
+So the right choice of a methodology or the choice of an adequate methodology for each and every project and product is mission critical.
+Let’s make an early conclusion on the methodologies, large scale methodologies, with just overviewed the RUP and MSF.
+A methodology is a set of processes, models and tools.
+An important consideration here is is that there is no universal methodology or a silver bullet one, and the same methodology which fits any project and any product.
+Instead, a methodology choice or selection depends upon the product and project size and scope every time.
+And a wise choice of a methodology is a mission critical thing.
+Generally speaking, the methodologies can be subdivided into large formal methodologies as RUP and MSF and smaller scale and more flexible methodologies like Scrum, Agile and XP.
+RUP and MSF are fully enterprise software development compatible, so to say, because they have a number of artifacts, rigorous processes and a large number of deliverables.
+So this means that the documentation provided to the customer will certainly satisfy the demand and it will be relatively easy or at least manageable to maintain the software supplied.
+The other consideration concerning MSF and RUP is that, these are scalable and adjustable process frameworks.
+So they’re not really fixed and stable in terms of project and product size and scope,instead, they’re adjustable.
+What is a methodology?
+What does a methodology include?
+What are the three key features of RUP (Rational Unified Process)?
+Is RUP a large or a small scale methodology?
+What other methodologies do you know?
+Thanks.
+Let’s discuss Rational Unified Process in more details.
+As far as you remember a methodology is a set of models, methods, practices and tools.
+As for the methodologies, they can be divided into two large classes.
+One (class) is the heavy or formal methodologies — the RUP and MSF fall into this category.
+The other category is smaller scale methodologies, which are usually called light or flexible.
+These are Scrum, Agile and XP.
+And we are not going to discuss them in this course.
+And as for the Rational Unified Process and Microsoft Solution Framework they came into being in the mid 90s.
+And the Rational Unified Process was introduced by the Rational Software.
+The authors are Grady Booch, James Rumbaugh and Ivar Jacobson.
+And later on it was acquired by IBM.
+The version 1 appeared in 1998.
+And basically all the methodologies we’re going to discuss are process frameworks.
+So there’re flexible and adjustable frameworks for the software development.
+These are the guidelines to build software in an efficient manner in terms of time, cost and functionality.
+The key features of Rational Unified Process are: iterative character, use-case and architecture focus.
+The idea is to build a stable architecture as soon as possible and then to develop software based on this architectural framework.
+The Rational Unified Process is a rigorously defined process framework.
+It has a number of artifacts and two versions.
+So the artifacts are defined strictly, and this can also be called a technological framework, and a technological product, which fits the customer needs and which can be custom tailored.
+Again it was suggested or introduced by
+Rational Unified Process, Rational Software, and later acquired by IBM.
+The four phases of Rational Unified Process are inception, elaboration, construction and transition.
+The first stage is called inception.
+This is what is going to be developed.
+The second stage is elaboration, how it will be developed.
+Construction is the process of software development, this is basically implementation.
+And transition is the product delivery to the customer.
+So the Rational Unified Process lifecycle contains four major stages, you can see them in the graphic slide.
+These are inception, elaboration, construction and transition.
+The first one is inception.
+This is about what is going to be developed.
+And each of the phases, each of these four phases has got a milestone which is labeled by star.
+And this is basically a condition of the exit criteria.
+So the condition which means this phase is over and we can move on to the next phase.
+So the first phase is inception or what is going to be developed.
+This is basically more or less the same as requirement analysis in the models.
+So the methodology is something parallel to a model.
+And in this case, in case of inception, there is a concept or an idea of how the product should look like.
+And we also have high-level functional specifications or requirement specifications and an overall idea of the project duration and cost and feasibility study.
+So this is basically what we have at this point.
+The next step or phase is elaboration and this is how the product will be developed.
+This is basically the architectural design or high-level design.
+And here we have the high-level requirement specifications and architectural decisions.
+However, no detailed design is produced at this stage.
+The third phase is called construction.
+And this is basically lower level design or detailed design and implementation together with testing.
+After this stage is over we get the modules or classes of the software, linked by the interfaces, and we’re basically ready for the fourth stage, which is transition.
+So we’re basically ready to the product transfer to acceptance testing and things like that.
+So, at stage three, at the phase three, at the construction phase we had a developed product and this product has already undergone the product testing.
+So it’s ready to be shipped.
+And the transition stage is formal product acceptance and switch to the operation or maintenance.
+After we have discussed the phases: inception, elaboration, construction and transition of the RUP,let’s dive deeper in what’s happening in the lifecycle.
+And we arrive to the concept of iteration which is an activity sequence within a phase which produces certain deliverable.
+It has an operation or rigorous plan and the exit criteria which results, which finally results in an operational product release in terms of the stages or phases.
+So, for example, as you can see in the slide, the inception can have just one iteration which is call preliminary iteration whereas the subsequent stages of elaboration, construction and transition have more iterations.
+Of course, the first stage or phase can also have a number of iterations.
+However, an iteration is usually smaller than a phase.
+As for the elaboration we have got two architectural iterations as an example.
+And the exit criteria yields us to the red starwhich represents the end of the phase.
+And then we transfer to the construction stage stage which has three development iterations and mark tab with smaller grayish or blueish stars.
+And then after the initial operational capability milestone is reached, which is again marked by red star, we move on to the transition stage, which has got a couple of transition iterations, and the product release milestone is reached.
+We get a red star and we start actually the maintenance phase.
+So as far as the slide is concerned, each red star has got a major milestone like lifecycle objective milestone for inception, lifecycle architecture milestone for the elaboration, initial operational capability milestone for construction and product release milestone for transition.
+The smaller stars represent smaller milestones for iterations.
+The next picture introduces the disciplines.
+As far as we know Rational Unified Process contains four phases: inception, elaboration, construction and transition.
+Each of which has got a number of smaller iterations.
+However, within each iteration we can work with a number of disciplines which more or less correspond to the lifecycle stages such as requirement’s analysis, requirement specification, architectural or preliminary design, detailed design, implementation and testing, integration and testing and things like that.
+In many iterations ideally or nearly in every iteration we work with a number of disciplines.
+For example, we have a construction iteration marked with a red rectangle.
+And here we have seven or eight different disciplines: business modeling, requirement’s analysis and design, implementation testing, configuration, change management and things like that.
+These all run concurrently and certain disciplines are starting, such as, for example, testing and deployment, and some others like business modeling are ending at this point.
+However, a large number of disciplines are involved in each and every iteration.
+Every methodology is a process framework.
+However, every methodology also includes a number of best practices.
+So these are basically a set of recommendations how should we act to develop software in an efficient way.
+Concerning the RUP, the basic key practices are to provide customer requirement satisfaction, concentrate on the program implemented, adjust to changes since the project starts and build a component system.
+This final consideration about the component system is really essential for enterprise software systems development because they are also often built component wise.
+So, again, every lifecycle methodology contains a process framework and best practices.
+Let’s make an early conclusion concerning the Rational Unified Process methodology.
+Any methodology is a set of models, methods, practices, and tools.
+RUP, of course, also includes all this elements.
+The methodology is in generally can be classified as heavy or formal and as light and flexible on the other hand.
+Of course, RUP is basically heavy or formal.
+However, it can be custom tailored and adjusted to small size products and projects, but generally it is one of suitable for for ESS any price software system construction development.
+RUP is a rigorously defined and strictly structured software engineering, software development process framework.
+Its core aspects are that is an iterative development framework, it’s use-case based and it’s architecture-centered.
+Rational Unified Process has got 4 main phases: inception what should be developed, elaboration how it should be developed, construction which is basically implementation and transition meaning the transfer to the customer.
+Inside each phase there is usually a number of iterations and different disciplines.
+What is Rational Unified Process or RUP?
+How many phases does RUP have?
+What happens in each phase?
+What is the difference between a phase and an iteration?
+What is a discipline?
+Is it possible to handle several disciplines in an iteration?
+Let’s see how Rational Unified Process framework can be tailored for different lifecycle models.
+Again, the framework includes four basic stages: inception, elaboration, construction and transition.
+These are subdivided into smaller iterations and even smaller activities.
+Each activity works with the number of disciplines which basically correspond to the lifecycle stages, such as requirement’s analysis, specification, preliminary and detailed design, implementation, integration and maintenance.
+So let’s have a look at the slide and see whether waterfall model can be used together with RUP.
+And if so, how can it be framed into the Rational Unified Process framework.
+So we see the waterfall lifecycle.
+One iteration for inception with a milestone of conceptual prototype built.
+The second stage elaboration can also be done quickly in one or two iterations.
+Here we have one iteration with the milestone reached, meaning architectural base line constructed.
+Then we have one construction iteration because basically the one pass mechanism of the lifecycle is used.
+And a couple of transition interactions with generating product releases.
+And then we have delivery and the past delivery maintenance.
+What are the key features of the product which should be met when we work according to the waterfall lifecycle with the RUP?
+This is а relatively small amount of well defined new functionality to be introduced or added to the system.
+The product, the initial product should be rather stable at this point.
+Another thing is that the new functionality is transparent and well defined.
+These are, basically, requirements of the waterfall model as far as we remember.
+And also the project team is, so to say, technically literate and also it is well confident in terms of the problem domain and the product.
+The other model, or the other lifecycle model, we’ll overview together with the RUP is incremental.
+We’ll have a couple of slides on that.
+The first one shows one pattern of introduction of the incremental model together with the RUP.
+So the assumptions are: that the problem domain is unfamiliar to the development team, all risks are clear and controllable.
+And the team is experienced enough to do the iterations and to subdivide the functionality into the releases and use them.
+Of course, the basic framework is the same.
+We have inception, elaboration, construction and transition and a number of iterations for each of them.
+Inception and elaboration are basically done in just one step in just one iteration.
+And again the milestones are more or less same as above, same as in the case of the waterfall model, so the conceptual prototype builds an architectural base line set of the first two milestones for inception and elaboration respectively.
+However, the construction process and the transition process are very different as compared to the waterfall model.
+This is so because the incremental lifecycle requires sequential elaboration and add on of functions to the release, to the subsequent product releases.
+So we have many iterations for construction and many iterations for transition before we reach the full product release and its delivery to the customer.
+Of course, the intermediate product releases are also delivered to the customer in the same manner of the incremental model of users.
+Here is another example of how the incremental lifecycle is mapped on to the Rational Unified Process Framework.
+However the assumptions in this case are a little bit different as compared to the previous one.
+What’s the difference?
+This is that the requirement specifications and architecture are stable and they are defined, well defined before development and also no risks of the new requirements show up.
+This means that in terms of inception and elaboration, the entire process is more or less the same.
+It is just one iteration.
+However, the construction happens more rapidly in this case. 
+We can go for just one iteration because no new requirements show up and everything is smooth and predictable in terms of step-by-step development and adding functionality.
+That is why the first three stages require a very limited, a very small number of iterations, just three iterations in this case, inception requires just one preliminary iteration as well.
+However, as for the transition, we have a quite a number of iterations with the acceptance testing and perhaps adding some product documentation.
+So the idea is that we can custom tailor the product lifecycle for each and every model and it basically fits into the general framework of the RUP processes.
+Let’s see one more example of the lifecycle model mapping onto the RUP process framework.
+In this case we see an evolution lifecycle and a couple of assumptions with are new or unfamiliar problem domain and a relatively inexperienced project team.
+As far as you remember the evolution lifecycle requires a number of iteration with prototyping to figure out with is the better way to move on in terms of software development and the possible alternatives and risks.
+So the first stage inception requires just one iteration because everything is more or less clear at this point, at the point of figuring out the idea of the product.
+However the second stage requires multiple iterations elaboration because we are experimenting on the architecture, trying to set up the better architecture for this product and prototyping for this reason.
+Construction can be done in just one iteration or few iterations and a release is committed, release is done in this step.
+However a transition may also require several iterations in terms of making the documentation, product documentation and exceptance tests which are ready for transition.
+So the risks of an unexperienced team or unfamiliar problem domain impose significant changes in terms of the lifecycle mapping onto the RUP framework.
+And this framework changes a lot.
+We have overviewed a number of examples of how software development lifecycle models map onto the general RUP process framework.
+Again RUP is a methodology, so it includes not only processes, roles and artifacts, but also a number of best practices or key principles.
+So what are these principles?
+They are summarized in the slide and they are: 1) provide customer requirement satisfaction, 2) concentrate on the program implemented, 3) adjust to changes since the project starts, 4) build the foundation of an implementable architecture as soon as possible.
+We remember the Rational Unified Process is an architecture centered approach.
+And make quality a lifestyle.
+We’ll see that these principles are very similar to what MSF (Microsoft Solution Framework) suggests.
+And these are really general principles applicable to each and every methodology to a greater or less extend.
+In conclusion let us summarize the features of the Rational Unified Process.
+First of all a Rational Unified Process is an iterative software development framework which is flexible enough.
+And Rational Unified Process is a methodology.
+So it includes a number of models, tools and principles.
+However, this is not a lifecycle model.
+We have just seen how the models, different lifecycle models such as incremental, evolution and waterfall can be mapped onto this more universal process framework.
+Rational Unified Process is compatible with nearly every lifecycle model.
+And the lifecycle model choice, of course, depends of the product size and scope.
+Rational Unified Process is usually organized in a phases.
+It has four large phases: inception, elaboration, construction and transition.
+Each of which is further subdivided into iterations and smaller activities.
+Rational Unified Process structure includes roles, artifacts and activities.
+And as a methodology Rational Unified Process includes a set of basic practices or best practices.
+Is RUP a methodology or a lifecycle model?
+Why or why not?
+What is the relationship between a methodology and a lifecycle model?
+Will RUP work for a waterfall and for an incremental lifecycle?
+Why or why not?
+What are the principles and best practices of the Rational Unified Process?
+Now let’s say some details to the Rational Unified Process discussion.
+We have mention that RUP has got 4 phases: inception, elaboration, construction and transition
+Each phase may have a number of iterations.
+The overall development lifecycle is iterative.
+And each iteration works with a number of disciplines, which are more or less the same as the software development lifecycle stages.
+So now let’s focus on the structure of the Rational Unified Process.
+And this can be understood in terms of roles, artifacts and activities.
+So in the slide we can see an example of a very small part of the process, which is called an activity.
+This is perform by role.
+And in this case the role is called a designer.
+And the idea is that this person, the designer produces use-case as a result of two activities — use-case analysis and use-case design.
+The resulting artifact is a use-case.
+And this is produced by a role as result of a chain of activities.
+So the idea is that a process includes a number of activities in each of which different roles produce different artifacts.
+You can see another part of the activity diagram.
+This is a kind of diagram invented by Rational Software as a part of the Rational Unified Process.
+And again we see roles, artifacts and processes here.
+A role is represented as a human figure like image.
+And again we have a designer, who produces the same two activities — use-case analysis and use-case design.
+And the same artifacts, which is use-case specifically.
+However, in this case we have a more detailed picture.
+So that the designer uses manuals in order to produce the artifacts.
+Two kinds of manuals are used.
+One is the design manual, which represents the general pattern or general framework instructions for creating the use-case required.
+The other manual is rational roles user manual.
+Rational roles are a tool, a software tool, required to produce such an artifacts.
+Of course, the designer does not use a pencil or a whiteboard to draw this use-case by hand.
+Instead he or she uses a tool, and of course specific stencils and patterns and parts of the tool, such as command buttons and menus are used to efficiently and correctly produce the artifact.
+So the idea is that during each and every discipline within iteration in the lifecycle of these 4 phases (inception, elaboration, construction and transition) every role produces the artifacts according to a chain of activities, and to do this this role uses certain manuals and tools.
+The next picture shows even more complex production process according to the RUP.
+The part of the diagram is called activity diagram.
+And this again represents the role, the roles, different roles, artifacts and processes, according to which the deliverables or artifacts, in case of RUP they are called artifacts, are produced.
+The horizon lines represent the check-points, where the different artifacts are coming together.
+And as soon as all they arrive, all they delivered we can switch on to the next stage.
+In this case we have project plan configuration and change management.
+And the idea is we have a number of configuration items to be created, managing base line and releases, and so on.
+And concerning the details we have just one activity manage change request given more details to the side.
+Here we again have a role and a number of activities.
+Two activities, which are submit change request and update change request.
+And this change request as an artifact is produced and then submitted from the tester to the test analyst.
+And then the changes in the product are verified and submitted further to create the part of the product required.
+So the Rational Unified Process is a very complex framework, which involves a huge number of activities, performed by different roles, to produce just one artifact in the chain of activities.
+Any methodology includes not only processes and artifacts, but also a set of requirements or best practices.
+What are these best practices in more detail concerning the RUP (Rational Unified Process)?
+Develop iteratively, control requirements, use component architecture, use visual modeling or case (compute aided software engineering) tools, such as rational roles, we have seen a couple of slides ago.
+And continuously track quality and manage changes.
+So basically these are very simple rules, which are more or less applicable to other software development methodologies.
+Later on we’ll see MSF has got basically more or less the same best practices set.
+More of best practices of the Rational Unifies Process, which again are general and understandable, basically they do not need any comments.
+Attack major risks early and continuously or they will attack you.
+So RUP is a risk-centered development methodology.
+And of course we have to monitor and to medigate risks.
+Provide customer requirement satisfaction.
+Concentrate on a program implemented.
+Adjust to the changes since project start.
+This is interesting because this is also very well matching the best practices of agile or flexible methodologies, which is a different domain but still.
+Build a foundation of implementable architecture as soon as possible.
+We do remember that the RUP is an architecture-center approach.
+Build a component system.
+This is again important in terms of enterprise software systems development, which are developed and deployed, used and maintained component wise, component by component.
+Work together as a team and make quality a lifestyle.
+Of course, the team development is a part of the RUP.
+MSF (Microsoft Solution Framework) focuses on team development perhaps in more detail, but RUP also has got team based development as a part of the core principles and best practices.
+Let’s make a conclusion on RUP organization.
+The RUP (Rational Unified Process) is a process framework for software development.
+It is iterative.
+It is organized in larger phases: inception, elaboration, construction and transition, which are later organized in smaller iterations and even smaller activities.
+The RUP structure includes roles, processes and artifacts.
+According to the processes the roles produce artifacts in the manners prescribed.
+RUP processes use manuals such as rational roles manual and special manuals for producing the templates, required patterns and software user manuals.
+Rational Unified Process structure also uses work flows and activities.
+And of course, Rational Unified Process as a methodology includes a set of best practices.
+What are the best practices of RUP?
+Is RUP just a set of best practices?
+Why or why not?
+What is the relationship between a methodology and a lifecycle model?
+Will RUP work for a small scale software? Why or why not?
+Thanks.
+We are starting Microsoft Solution Framework methodology.
+Like I said it appeared in 1994.
+And in ten years the more or less current version four came into being.
+Microsoft Solution Framework, or MSF, is a methodology, is a process framework.
+It’s team focused.
+And it has a couple of instances, which are called formal and agile, used for large scale and complex system development and smaller scale and more adaptive system’s development respectively.
+Microsoft Solution Framework is a set of recommendations.
+So it’s just basic framework for software development.
+It comes in parallel with MOF (Microsoft Operation Framework), which says: use it right.
+As a pose to MSF, which says: build it right.
+So this is for deployment.
+And MSF and MOF together embrace the entire lifecycle, which includes not only software development, but also deployment, maintenance and consulting.
+Microsoft Solution Framework, or MSF, is somewhat similar to Rational Unified Process, or RUP, in the sense it is also a methodology.
+It’s a framework.
+It’s a number of key basic or best practices, number of recommendations.
+And it uses the following key elements, listed in this slide.
+There is a number of basic principles.
+We’ll introduce them a little bit later.
+Models for teams and processes and two ready-to-use meta-models, which are called MSF Agile and MSF Formal.
+Basically these are process frameworks, much like RUP.
+However, they are a little bit differently focused, because MSF is generally more team oriented and very scalable.
+There is a number of disciplines of management, such as projects, risks and availability.
+Again, we’ll talk about them in more detail a little bit later.
+There are a number of concepts or mindsets.
+And all these are related to practices and recommendations.
+As for the basic principles of MSF, they are basically as follows.
+Actually you have a reference of the end of this lecture, which is microsoft.com/MSF, which has all the details available.
+So, coming back to the basic principles, the first principle is partnership with a client.
+This is very important, because we have to focus, with developers have to focus on the business side of the product to be developed.
+And it is very important, that we have constant and continuous interaction with the client to build-it-right, to make all the necessary changes, sometimes, on the fly.
+So this is really very important.
+The agile methods, the methods used in crisis, and the methods, which are highly adaptive, involve the client within the team.
+MSF cannot afford that.
+However, MSF suggests constant partnership and interaction with a client, which is really important.
+The next thing is foster open communications.
+The idea is that the Microsoft team is the team of equal.
+And basically you can drop an email to any member of the team irrespective of the position, of the rang.
+If this is relevant and if it gets value to the product and the project, it makes sense to address the certain member of the team directly.
+Work toward a shared vision — that’s another thing, which is related to the previous ones.
+And the idea is that all the team members understand the product, or, ideally, should understand the product in one of the same way.
+So there should be known misconceptions or miscommunications.
+Quality, - is an everyday work for everyone or invest in quality.
+So do something every day to produce quality.
+Every deliverable should have a certain level of quality irrespective of its matter, whether it’s a piece of documentation, whether it’s a piece of code.
+Whatever it is, it can be a diagram or just a part of a diagram, it should have a certain quality level.
+Stay agile, expect change.
+Everything should be very flexible in terms of the team, management and in terms of reacting to the changes.
+Make implementation a habit.
+Deliver something every day.
+And again, make a good quality.
+And create value.
+Value here means not just abstract value, but basically business value.
+MSF (Microsoft Solution Framework) is business oriented.
+Let’s illustrate, how the basic principles of MSF are related to the best practices and to recommendations.
+Let’s have a look at a couple of basic principles, which are in this slide.
+Learn from all experiences — is the first one, and the second is stay agile, expect change.
+So this is related to models or disciplines of software development.
+The first principle — learn from all experiences is related to the MSF process model.
+We’ll see how this works a little bit later.
+This gives both to a basic concept — desire to learn.
+And then a pre-tested practice follows which was used in the previous project and approved.
+This is the post phase review, like a post mortem, which happens after every phase, like conceptual design or stabilization.
+Again, we’ll review the lifecycle of MSF a little bit later.
+And then the recommendation follows which prescribes an external trainer participation in the team.
+That’s the principle — learn from all experiences.
+The second principal is — stay agile and expect change.
+The related model and discipline is risk management.
+Risk management is central to RUP (Rational Unified Processes) as far as we remember.
+We should attack risks before they attack us — that’s the principle of RUP.
+As for the MSF constant attacking of risks and constant’s continuous risk analysis is also a part and parcel of Microsoft Solution Framework.
+Continuous risk evaluation therefore is the key concept related to the model or discipline of risk management.
+The pre-tested practice is detecting and monitoring risk factors.
+And Microsoft recommends to use a database on risks to keep an eye on them and to continuously monitor and mitigate them.
+A number of principles are related to team work.
+Team is a central concept of Microsoft Solution Framework.
+So what is essential here?
+First of all the MSF team is a team of equal, meaning that you can address nearly everyone.
+I mean you can drop and email directly to Bill Gates or Steve Ballmer.
+Does not really matter, I mean, the rang does not really matter.
+What matters is the message importance and its relevance to the position and to the objectives of the decision maker and the business value of your proposition.
+So, the team is equal and the communication is open.
+However, it does not mean that the responsibility is also shared.
+The responsibility is strictly personal and it’s linked to the objectives and tasks every person, every single person does in the project.
+So each role is responsible for certain quality objective in the shared solution.
+That’s the principle.
+All interested sides should be represented.
+This is principle number two.
+And this means that all the inputs to the solution should be checked and should be verified against the requirements, the business value and things like that.
+So every possible contribution should be taken into consideration before we actually start development.
+This results in the well balanced solution and this helps MSF a lot to bring additional business value to the solutions developed.
+In this relation it’s easy to detect errors, to understand possible gaps, drawbacks, bottlenecks and ill balance decisions.
+The third thing is adjust in order to match the product and project size and scope, be aware, be alert and wait for changes and act accordingly, act proactively, if you can, if not — try to adapt and react.
+So the interested people gather in small teams.
+Sometimes it’s more informal, but basically it’s more formal.
+However, MSF usually prescribes small team size with clear responsibility of each member.
+And these small teams can scale up for larger projects.
+So Microsoft Solution Framework prescribes teams of teams, and even teams of teams of teams for larger scale project and enterprise solutions.
+Concerning the team model, MSF uses a number of role clusters, which are interrelated.
+The link you see, the circle link in the picture you see, is the communication link.
+It does not necessarily mean that the adjacent role clusters communicate to each other only.
+This means that the link is for entire sets of the clusters.
+However, the clusters are separated by responsibilities.
+The vision and communication aspects are shared, of course.
+So the clusters, the basic clusters are project management, process management, program management, user experience, release and operation, developing and testing and architecture.
+The architecture cluster actually was started later on, and it has started since version 4.
+We’ll get to the role cluster meanings on their interactions in more details later.
+The question arises: how often is MSF used outside Microsoft?
+And, are there any specific challenges?
+It looks like MSF is really easy to use.
+That’s not quite true, because Microsoft Solution Framework requires stabilization.
+And this is a very complex process, and it involves case tools, very specific case tools.
+And they should be used in an intensive way.
+So the problem is that it’s really hard to do this without specific experience acquired at Microsoft.
+So this is a kind of know-how and you have to have a very specific knowledge to use that.
+That is why Microsoft Solution Framework is actually seldom used outside Microsoft.
+MSF originated within Microsoft at Microsoft Windows Engineering Service and Solutions.
+And it was used to support Microsoft Consulting Services (MCS).
+So Microsoft Solution Framework originated from a number of projects run at Microsoft.
+Some of the projects were successful.
+The others were not so successful.
+So Microsoft actually accumulated the entire experience on these different projects.
+And this gave birth to MSF.
+Let’s make an early conclusion on MSF (Microsoft Solution framework), what is this?
+This is software development methodology, which is a flexible process framework and it’s a team focused one.
+It’s very adaptive and another focal point is a client.
+Open communication with client and continuous interaction with client is very important for MSF.
+MSF is a set of recommendations.
+That’s a framework, it’s not a preset sequence of actions, required to develop software product.
+Also MSF is not a lifecycle model.
+Similarly to RUP (Rational Unified Process) MSF can be used with different lifecycle models, such as waterfall or incremental, or any iterative model.
+MSF nature is basically iterative.
+However, it can be used with more or less any lifecycle model we have discussed before.
+MSF uses two preset meta-models, which are called MSF Formal (for building larger applications, enterprise scale product) and MSF Agile (for smaller scale solutions).
+MSF requires common vision and open communication within the team of equal with shared, but personalized responsibility.
+MSF uses certain complex and specific elements, such as case tools for testing, that is why the methodologies seldom used outside the Microsoft.
+MSF is fully ESS compatible, Enterprise Software Systems compatible.
+So to say, it’s good for development enterprise scale solutions.
+However, based on the team size and the adaptive framework it can be scaled up or down to meet the scale and scope of the product.
+Is MSF a lifecycle model?
+Why or why not?
+What are the key elements and principles of the MSF?
+Which features are distinctive for MSF?
+And why?
+What are the role clusters of the MSF teams?
+Will MSF work for a small-scale software?
+Why or why not?
+Is MSF often used outside Microsoft?
+Why?
+Thanks.
+Let’s overview the process organization and team development and best practices of MSF in more details.
+So as for a lifecycle MSF has got five stages of software development which resemble RUP stages to great extend.
+The big different, however, it the stabilization stage.
+So the process starts at around twelve o’clock if we look at this as if this is the watch.
+And the first stage is called envisioning.
+The idea is approximately the same as inception phase of the RUP.
+So the idea is that this is the early conceptualization of what will happen with a product, what will the basic features be and this is an early analysis requirement analysis stage.
+The idea is to approve vision and scope of the product which features will implement and what is the general idea.
+This vision scope approved is the milestone which marks the end of the envisioning stage and the next stage starts which is called planning.
+This is much like elaboration in RUP again.
+So this stage the requirements are elaborated and this is more less corresponding to high-level architecture design and a little bit low-level design.
+So the idea is to fix the architecture, to fix the requirements and to get ready for development.
+Developing is stage three.
+So project plan approved which has all the milestones and deliverables set and overall architectural picture is the milestone for the planning stage, stage number 2.
+After planning stages finished the developing stage starts.
+This is much like construction stage in Rational Unified Process.
+So the idea is the product is coded and tested and basically it should be ready for deployment for the transition which is stage number four with one exception, it should be stabilized.
+So the idea is at this development stage MSF requires understanding and detecting all the severe errors or significant errors.
+However, there’re not irradiated yet.
+This irradiation stage is called stabilization.
+And this is for making a stable build, a stable release.
+Microsoft calls this small build, small releases as builds.
+And as soon as we get stable build, we have many build and we’re testing them concurrently.
+This are different ways of moving from the develop product to the product which could be shaped to the customer.
+So we’re stabilizing the build where selecting most stable build of the build we have.
+This is called stabilization.
+So the milestone for developing is scope complete.
+The milestone for stabilizing is the release readiness an approved.
+As soon as releases ready it can be shaped or deployed.
+Of course, we need documentation for that and deployment also includes the user or the client training and a number of other steps such as acceptance testing at the client side and so on.
+And as soon as this is done, as soon as the maintenance starts, deployment complete milestone is reached.
+The idea is that this is lifecycle which follows in consequent iterations and each iteration brings new functionality.
+So we can work iteratively in loops.
+We can do it in one pass for waterfall.
+We can do it in many pass manner, for example, incremental models, spiral model, object-oriented model or some other model.
+This is very much like Rational Unified Process.
+However the different is the stabilization phase.
+In order to better understand to the process model of MSF let’s review the basic principles of the methodology.
+These are partnership with client, open communications and shared vision to start with.
+Again the idea is if we can’t have a client ready as a team participant we should establish tight relations with the client and we should communicate as often as possible.
+We should receive feedback and use this feedback in our development both in the current project and in the future projects as an experience.
+The vision should be shared through open communication between the team members though they may belong to different teams or different role clusters.
+They should communicate openly and reach the shared vision, the common understanding of the product they are going to build.
+Quality is everyday work for everyone, we should invest in quality.
+You should build up skills including both — your professional skills such testing and development or project management and communication skills which are also essential.
+Stay agile and expect change.
+The teams are may be resized, responsibility is may be changed, the development focus may change as well.
+So Microsoft Solution Framework prescribes to be alert, to be responsive to the changes in the environment, in the requirements.
+Any changes in the development process which make it better.
+Make implementation a habit and create a business value.
+The idea is to produce a deliverable every day or every milestone.
+And this should not just be delivered as it is, but this should have certain quality level.
+Concerning the team model MSF uses the role clusters, we have already discussed.
+These are program management, product management, development testing, user experience, release operation and architecture as we have seen.
+What is interesting however?
+This resembles RUP disciplines to a large extend.
+As for the RUP we had a number of disciplines in every iteration such as design, testing and so on.
+So basically these role clusters of MSF are somewhat similar to what we have in RUP as disciplines.
+So let’s keep this in mind because during the lifecycle stages such as envisioning or stabilization we can work or the Microsoft Solution Framework teams can work with different disciplines.
+The same thing happens in RUP when many teams work with different disciplines in one of the same iteration.
+Concerning the MSF process model we have three levels: process, workflow and activity.
+So the process is the highest level.
+It contains several workflows and workflows are organized in smaller activities.
+We, basically, have the same thing in RUP where we have activities in processes.
+Again, we have roles which are similar to RUP and in RUP roles produced artefacts, in MSF artefacts are called deliverables.
+So these are some items which are delivered to users.
+And examples of deliverables are given, this can be document, a table, a piece of code, a piece of documentation, a chart or a diagram, anything which is required and prescribed by the workflow.
+So the process organization is threefold as three levels.
+Again these are processes, workflows and activities.
+A question arises how the Microsoft teams, Microsoft Solution Framework teams can be scaled up and down.
+The answer is in the slide.
+And this is also called role compatibility matrix.
+The idea is that the role clusters such a user experience, development, program management, product management, architecture and so on, can be combined in certain situations or for certain reasons.
+Thus the teams can be scaled down if we combine certain roles or they can be scaled up is we separate this roles.
+For example, for architecture and program management we can combine these roles.
+Microsoft says this is possible.
+However, for product management and program management this two role clusters can’t be combined.
+In fact, they can be combined, but Microsoft says this is not recommended.
+So, using this metrics, we can plan for adjusting the team size in accordance with the project and product size and scope.
+This makes MSF team adjustable and scalable.
+MSF includes a number of proven practices and features such as using stages and milestones.
+The stages are envisioning, developing, stabilization, deployment and so on.
+Each of them has got a clear milestone which indicates the end of the stage, like vision and scope approved, architecture or baseline approved or things like that.
+The overall development is basically iterative.
+It can be incremental.
+It can be object-oriented.
+It can be spiral.
+However, the waterfall flow can also be managed under MSF.
+The general flow of the lifecycle is iterative.
+And MSF actually is closely related to MOF (Microsoft Operations Framework) so it leads to deployment which is actually a stage of the MSF and the subsequent consulting and maintenance, post-delivery maintenance services.
+As for the proven practices, the idea is to build small teams which are scalable and in case of large scale products the teams are built as teams of teams.
+So small teams are aggregated together to make larger teams of teams which build the large scale application such as enterprise solutions, for example.
+Teamwork and team design, using shared vision and clearly separated responsibilities are used.
+Let’s see what are the challenges of using MSF.
+MSF originated as a Microsoft consulting services project.
+And it’s based on their experience in developing and deploying and consulting in IT.
+MSF is used in Microsoft by a number of project development groups.
+And it has many aspects starting from the envisioning, and ending up by consulting and client training and things like that.
+MSF is used for product business lines and technological services and solutions.
+However, MSF is really hard to use outside
+Microsoft because it requires specific knowledge and skills in automated testing, in using specific case tools like Microsoft Visual Studio team system and very specific aspects as intensive testing in various modes for the builds to create a stable build.
+So the examples of using MSF outside Microsoft are really rare.
+There is one project named Osellus.
+It’s in the slide.
+The idea is that it can be used, the MSF can be used and was used in iris product for business process description.
+However, the examples or instances of using MSF outside Microsoft are not numerous because of this complex testing and very intensive testing by very specific methods and techniques.
+That is why basically MSF is seldom used outside Microsoft.
+Let’s sum up on Microsoft Solution Framework and make a conclusion.
+So Microsoft Solution Framework is a methodology for developing and deploying large scale and smaller scale software solutions.
+And this is an adaptive, client and team-focused methodology.
+The lifecycle of Microsoft Solution Framework includes five stages which are more less similar to Rational Unified Process.
+These are envisioning, planning, developing, stabilizing and deploying.
+The different is stabilizing stage.
+The lifecycle is basically similar to RUP.
+And the process model is also similar however.
+It includes three levels starting from process, workflows and the low-level as activities.
+Each activity processes a deliverable and some activities often require a deliverable as an import.
+Of course they can require one or many deliverables.
+For scalable teams MSF uses this so called role compatibility metrics which recommends or not recommends combining different roles together.
+And this scaling up or separating this roles and this scaling down.
+Microsoft Solution Framework uses very complex testing with Visual Studio teams tool.
+And this is hard to implement without very specifics skills and intensive training.
+And this Microsoft Solution Framework is seldom used outside Microsoft.
+The methodology is fully compatible with building enterprises scale solution.
+It’s good for building enterprise systems.
+However it can be scaled for smaller application because it’s very flexible and adapting.
+How many phases are there in the MSF lifecycle?
+And what are the exit criteria for each stage?
+What are the differences between the phases of MSF and RUP?
+How many levels are there in the MSF process?
+What is the compatibility matrix for MSF role clusters?
+And how does this matrix work?
+What is a deliverable?
+Is MSF often used outside Microsoft?
+Why or why not?
+Thanks.
+In conclusion let us overview the best principles and practices of MSF and RUP.
+And let’s see what are the differences and the similarities.
+Basically these two frameworks are very similar.
+These are process frameworks for software development.
+They are flexible.
+They are adjustable.
+MSF is more team oriented and client focused.
+However, every methodology includes a set of basic principles and best practices.
+Let us see what the methodologies use as those.
+So as for the RUP, the best practices are — develop iteratively, Microsoft Solution Framework also uses iterations as a major lifecycle way and control requirements; use component architecture and visual modeling tools, case tools.
+Microsoft Solution Framework again, uses Visual Studio, team suit as a major tool to support the development and deployment.
+Continuously track quality, — quality is very important in MSF as well.
+And manage changes.
+So be adaptive, be proactive — these are also MSF principles.
+As for MSF basic principles these are partnership with client, open communication, so the common vision should be shared through open communication.
+Work on common vision.
+Quality is everyday work for everyone, strive for quality.
+Be flexible and adapt to changes.
+Make implementation a habit and create business value.
+So, basically, the principles are more or less the same.
+Let’s see what we can make as an conclusion.
+As far as we know, any methodology is a set of basic practices and key principles.
+Best practices are also involved, and both methodologies, we have discussed, the MSF and RUP are process frameworks for software development.
+MSF is more focused on deployment, consulting and post delivery maintenance as well.
+So what can we say in conclusion?
+A methodology is a set of practices.
+We have just enumerated these practices for MSF and for RUP.
+And we have seen that they are very similar, strive for quality, make communication open, share vision, develop iteratively, attack risks before they attack you and things like that.
+There is no universal methodology.
+There is no silver bullet which fits for each and every project and product equally well.
+Instead, we should custom tailor the process framework.
+We should adjust according to the project size and scope.
+We should size up or down the team.
+We should maybe make a number of teams-of-teams for them to interact effectively and efficiently.
+So we should adjust to fit the methodology framework within the size and scope of the product.
+Generally the methodologies can be subdivided into light and heavy or informal and formal.
+We have discussed two methodologies, — Microsoft Solution Framework or MSF and Rational Unified Process or RUP which are heavy and formal basically.
+However, each of them can be tailored to be more flexible or to have less artifacts like Microsoft Solution Framework can be formal or agile.
+It has got two preset templates.
+And RUP can also be large or formal or it can be small or informal.
+So this is adjustable.
+Any methodology can support virtually every model of the lifecycle, we have discussed, such as waterfall, incremental or object-oriented and so on.
+So, methodologies and lifecycle models are not synonymous.
+These are different things.
+A methodology is a process framework and basically every lifecycle model can fit in that, in that framework.
+So, a methodology may support several lifecycle models or even their combinations.
+RUP and MSF are fully compatible with ESSD, with enterprise software systems development.
+Large skills systems can be developed under these methodologies, because they have a large number of artifacts, well defined processes.
+And these frameworks are complex enough to fit in the enterprise context in terms of multiple deliverables.
+Complex things to be delivered, such as user documentation and software code and comments for that and many different artifacts — complex process, specific diagrams for that and scalable teams.
+However, Agile, Scrum and XP as lighter and more adaptive methodologies are not fully compatible with enterprise software systems.
+That is why we don’t discuss them in the course in great detail which mentioned that these methodologies are existing.
+Enterprise software system project success depends on team maturity and discipline, and using standards and supporting tools such as case tools.
+In mature teams we probably did not succeed in building large skill and complex enterprise software.
