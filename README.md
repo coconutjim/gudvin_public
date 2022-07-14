@@ -5,5 +5,5 @@ Was integrated with more than 20 APIs (VK API, Google, Twitter, translate servic
 At the moment of creation there were no similar products in VK.
 
 Development stopped in 2018 due to new policy of VK network (bots in personal dialogs between people had been prohibited).
-
-Technology - Python (requests, bs4, VK API, API libs).
+##Technology
+Python (requests, bs4, VK API, API libs).
