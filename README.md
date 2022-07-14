@@ -1,7 +1,7 @@
 # gudvin
 2016-2018. Pet project. Main purpose - getting information from external resources within dialogs with other people in social network VK.
 
-Was integrated with more than 20 different APIs.At the moment of creation there were no similar products in VK.
+Was integrated with more than 20 different APIs. At the moment of creation there were no similar products in VK.
 
 Development stopped in 2018 due to new policy of VK network (bots in personal dialogs between people had been prohibited).
 ## Features
