@@ -18,7 +18,7 @@ Development stopped in 2018 due to new policy of VK network (bots in personal di
 11. Wikipedia pages by request
 12. News (from Meduza)
 14. Posts from Twitter
-15. Weather via OpenWeatherMap
+15. Weather forecasts via OpenWeatherMap
 16. Translation via Yandex (request translating or changing all bot's interface language)
 17. Translation sequence (multiple translation chain by request)
 18. Many other APIs via web scraping
