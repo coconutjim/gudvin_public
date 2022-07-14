@@ -20,7 +20,7 @@ Development stopped in 2018 due to new policy of VK network (bots in personal di
 14. Posts from Twitter
 15. Weather forecasts via OpenWeatherMap
 16. Translation via Yandex (request translating or changing all bot's interface language)
-17. Translation sequence (multiple translation chain by request)
+17. Translation sequences (multiple translation chains by request)
 18. Many other APIs via web scraping
 19. Dynamic permission management (access to commands from other users)
 20. Logging
